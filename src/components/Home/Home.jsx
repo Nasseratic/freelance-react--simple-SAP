@@ -5,6 +5,7 @@ import {Extchange} from '../mini/Extchange'
 import { About } from './About/About'
 import { Products } from './Products/Products'
 import { NewsBar } from './NewsBar/NewsBar'
+import { Contact } from './Contact/Contact'
 
 
 export class Home extends React.Component {
