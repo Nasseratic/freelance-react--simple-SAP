@@ -1,0 +1,31 @@
+#div{
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+    background-color: rgba(71, 74, 78, 0.726);
+    border: 1px solid rgb(233, 229, 173);
+    padding: 10px;
+    position: relative;
+    overflow:hidden;
+  }
+  #par {
+    font-family:sans-serif;
+    color:#F9F7F7;
+    position: absolute;
+    font-size: 1.5em;
+  }
+  #news{
+    position: absolute;
+    height: 150px;
+    width: 75px;
+    background-color: #000;
+    z-index: 100;
+    top:0px;
+    left: 0px;
+    line-height: -20px; 
+  }
+
+  #news-text{
+    color:rgb(247, 237, 154);
+    margin: 15px;;
+  }
