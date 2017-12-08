@@ -1,0 +1,13 @@
+.footerLink{
+    padding: 0px 20px;
+    margin-top: 20px;
+    color: #fff;
+    line-height: 37px;
+}
+.footerLink:hover{
+    padding: 0px 20px;
+    color: rgb(209, 202, 202);
+}
+.footer{
+    background:#253340;
+}

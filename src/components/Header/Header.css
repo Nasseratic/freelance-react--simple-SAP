@@ -1,0 +1,21 @@
+.navbar{
+    background: #7e7e7e;    
+}
+
+.burger , .navbar-item{
+    color: white;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1023px){
+    .navbar-menu.is-active {
+        background: rgba(0, 0, 0,  0);
+        display: block;
+    }
+}
+
+
+a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link.is-active {
+    background-color: rgb(182, 180, 180);
+    color: white;
+}

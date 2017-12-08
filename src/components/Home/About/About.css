@@ -1,0 +1,13 @@
+.content{
+    color:#000;
+}
+.has-bg-blue{
+    background:#253340;
+    padding: 5px;
+    width: max-content;
+}
+.title{
+    padding: 5px;
+    text-transform: uppercase;
+
+}
