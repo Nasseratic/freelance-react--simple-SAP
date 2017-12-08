@@ -1,7 +1,7 @@
 import React from 'react';
 import './Products.css';
 import 'react-dom'
-import img1 from '../../../assets/6-03.png';
+// import img1 from '../../../assets/6-03.png';
 import img2 from '../../../assets/6-04.png';
 import img3 from '../../../assets/6-05.png';
 import img4 from '../../../assets/6-06.png';
@@ -34,6 +34,11 @@ export class Products extends React.Component {
                 <Product name="HELLO" img={img2}/>
                 <Product name="HELLO" img={img3}/>
                 <Product name="HELLO" img={img5}/>            
+            </div>
+            <div className="columns is-desktop .is-variable is-1">
+                <Product name="HELLO" img={img6}/>
+                <Product name="HELLO" img={img7}/>
+                <Product name="HELLO" img={img4}/>            
             </div>
                 <br/>
                 <br/>

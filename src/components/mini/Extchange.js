@@ -36,14 +36,14 @@ export class Extchange extends React.Component {
     render() {
         
         return (
-            <div className="columns container is-centered">
-                <div className="c-card column is-3 ">
+            <div className="columns is-centered">
+                <div className="c-card column is-3 has-text-centered">
                     <span className="has-text-white is-size-5" >
                         {this.state.EUR_EGP}
                         <span className="car">EUR</span> 
                     </span> 
                 </div>
-                <div className="c-card column is-3 "> 
+                <div className="c-card column is-3 has-text-centered"> 
                     <span className="has-text-white is-size-5" >
                         {this.state.USD_EGP} 
                         <span className="car">USD</span> 

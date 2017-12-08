@@ -1,7 +1,7 @@
 import React from 'react';
 import { DateTime } from  'luxon' ;
 // import './Home.css'
-export class ClockCurrency extends React.Component {
+export class Clocks extends React.Component {
     
     constructor(props){
         super(props);
