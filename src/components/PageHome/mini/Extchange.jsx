@@ -14,6 +14,9 @@ export class Extchange extends React.Component {
         this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=EUR_EGP&compact=y').then( (res) =>{
             this.setState(   { EUR_EGP  : res.EUR_EGP.val });
         });
+        this.sendreq('https://cors-anywhere.herokuapp.com/https://my-json-server.typicode.com/mhmeeaad/freelance-react--simple-SAP').then( (res) =>{
+            console.log("res :" , res);
+        });
     }
     sendreq(url){
         return new Promise(function ( resolve , reject){
