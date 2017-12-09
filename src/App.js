@@ -4,7 +4,7 @@ import './App.css';
 import '../node_modules/bulma/css/bulma.css';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
-import { Home   } from './components/Home/Home';
+import { Home   } from './components/PageHome/Home';
 import { Route  } from 'react-router-dom';
 
 class App extends Component {
