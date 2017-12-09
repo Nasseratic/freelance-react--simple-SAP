@@ -33,10 +33,10 @@ export class Header extends React.Component {
             <div id="navbarExampleTransparentExample" className={ this.state.toggleNav ? 'navbar-menu is-active' : 'navbar-menu' } >
               
               <div className="navbar-end">
-                <a className="navbar-item" href="#home">
+                <a className="navbar-item" href="/">
                     Home
                 </a>
-                <a className="navbar-item" href="#about">
+                <a className="navbar-item" href="/about">
                     About
                 </a>
                 <a className="navbar-item" href="#products">

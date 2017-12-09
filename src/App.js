@@ -5,6 +5,7 @@ import '../node_modules/bulma/css/bulma.css';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 import { Home   } from './components/PageHome/Home';
+import { About   } from './components/PageAbout/About';
 import { Route  } from 'react-router-dom';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
       <div>
         <Header/>
         <Route exact={true} path="/" component={Home} />
+        <Route exact={true} path="/about" component={About} />
         <Footer/>
       </div>
     );

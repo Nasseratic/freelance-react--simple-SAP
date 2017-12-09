@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import {Clocks} from '../mini/Clocks'
-import {Extchange} from '../mini/Extchange'
+import {Clocks} from './mini/Clocks'
+import {Extchange} from './mini/Extchange'
 import { About } from './About/About'
 import { Products } from './Products/Products'
 import { NewsBar } from './NewsBar/NewsBar'
@@ -23,7 +23,7 @@ export class Home extends React.Component {
     render() {
         return (
             <div>
-                <section className="hero is-fullheight  is-bold" id="home">
+                <section className="hero hero-home is-fullheight   is-bold" id="home">
                 <Clocks/>
                 <Extchange/>
                 <NewsBar/>
