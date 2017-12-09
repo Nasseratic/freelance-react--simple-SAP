@@ -1,0 +1,81 @@
+.label{
+    text-align: left;
+    text-transform: uppercase;
+      font-weight: 100;
+    color: #016485;
+  }
+  .textarea{
+    min-height: 195px;
+  }
+  
+  .contact{
+    margin-top: 30px;
+  }
+  .title{
+      color: #016485;
+    letter-spacing: 10px;
+    font-size: -webkit-xxx-large;
+    }
+  .titleDashes{
+    color: #5b6b80;
+    letter-spacing: 0px;
+  }
+    .input{
+      border-color: #606d91;
+    }
+  .textarea{
+  
+    border-color: #60688d;
+  }
+  .fa-circle{
+    color: #61708f;
+  }
+    .contactInfo{
+      padding-top: 10px;
+      color: black;
+    }
+    .columns{
+      position: relative;
+    }
+    .infoDiv{
+      margin-bottom: 20px;
+    }
+   .followus{
+     color: #016485;
+     font-size: xx-large;
+   }
+    .socialIcon{
+      color: #2f3746;
+      margin: 30px;
+    }
+    .divFollow{
+      text-align: center;
+    }
+    .submitButton{
+      float: left;
+      background-color: #404561;
+      color:#fff;
+    }
+    .submitButton:hover{
+      background-color: #49517c;
+      color:rgb(179, 183, 221);
+    }
+    
+  
+  @media screen and (max-width: 1023px) {
+  
+    .title{
+      color: #016485;
+      margin-top: 30px;
+      letter-spacing: 10px;
+      font-size: large;
+      max-width: 80vw;
+    }
+  }
+  .hero-head{
+    text-align: -webkit-center;
+  }
+
+  .s-icon{
+    max-width: 50px;
+  }

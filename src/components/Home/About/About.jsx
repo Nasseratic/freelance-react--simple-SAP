@@ -12,7 +12,7 @@ export class About extends React.Component {
             padding : '50px'
         };
         return (
-            <div className="container" style={Style}>
+            <div className="container" style={Style} id="about">
                 <div id="about-us" className="columns">
                     <div className="column is-5">
                         <img height="100%" width="100%" src={img} alt="Random Img"/>

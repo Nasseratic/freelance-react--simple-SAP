@@ -11,3 +11,10 @@
 .footer{
     background:#253340;
 }
+
+.powerd-by{
+    color: #7f7fa854;
+    background-color: rgb(41, 42, 44);
+    width: 100%;
+    padding-left: 10px;
+}

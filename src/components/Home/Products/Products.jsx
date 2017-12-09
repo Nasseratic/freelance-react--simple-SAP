@@ -26,7 +26,7 @@ export class Products extends React.Component {
 
         return (
 
-            <div className="container">
+            <div className="container" id="products">
                 <h1 className="is-size-2 has-text-centered" > PROJECTS </h1>
                 <br/>
                 <br/>

@@ -23,7 +23,7 @@ export class Home extends React.Component {
     render() {
         return (
             <div>
-                <section className="hero is-fullheight  is-bold">
+                <section className="hero is-fullheight  is-bold" id="home">
                 <Clocks/>
                 <Extchange/>
                 <NewsBar/>
@@ -45,7 +45,7 @@ export class Home extends React.Component {
                 </section>
                 <About/>
                 <Products/>
-                
+                <Contact/>
             </div>
         );
     }
