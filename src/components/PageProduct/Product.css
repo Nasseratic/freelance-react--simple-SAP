@@ -1,0 +1,24 @@
+.hero-about{
+    background-position: center;
+    background-size: cover;
+}
+
+.full{
+    width: 100%
+}
+
+.notfound{
+    height: 85vh;
+    background-image: -webkit-linear-gradient(top, #000 , gray);
+    background-image: -moz-linear-gradient(top, #000 , gray);
+    background-image: linear-gradient(to bottom, #000 , gray);
+}
+
+.is-darkblue{
+    border-color: #303350;
+    color:#303350;
+}
+.is-darkblue:hover{
+    background: #303350;
+
+}

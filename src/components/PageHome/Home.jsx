@@ -24,6 +24,9 @@ export class Home extends React.Component {
         return (
             <div>
                 <section className="hero hero-home is-fullheight   is-bold" id="home">
+                <br/>
+                <br/>
+                <br/>
                 <Clocks/>
                 <Extchange/>
                 <NewsBar/>

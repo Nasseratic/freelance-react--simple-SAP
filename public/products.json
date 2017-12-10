@@ -1,0 +1,24 @@
+{
+    "SALT": {
+        "background": "../../products_Imgs/about.png",
+        "cats":[
+            {
+                "name": "NAME",
+                "content": "CONTENT",
+                "imgs":[
+                    
+                ]
+            },
+            {
+                "name": "NAME",
+                "content": "CONTENT",
+                "imgs":[
+                    "asdhkdsa",
+                    "dsasadkjhkdsa",
+                    "asdjshadjsah"
+                ]
+            }
+        ]
+    }
+
+}
