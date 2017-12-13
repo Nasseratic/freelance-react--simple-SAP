@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-
+import logo from './logo.png';
 export class Header extends React.Component {
     
     constructor(props){
@@ -20,8 +20,8 @@ export class Header extends React.Component {
             <nav className="navbar" >
             <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item" href="https://bulma.io">
-                <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+              <a className="navbar-item" href="/">
+                <img src={logo} alt="Bulma: a modern CSS framework based on Flexbox" style={ { minWidth: '90px' ,minHeight: '50px' } } />
               </a>
               <div className="navbar-burger burger" onClick={this.handleToggleClick} >
                 <span></span>
@@ -39,10 +39,10 @@ export class Header extends React.Component {
                 <a className="navbar-item" href="/about">
                     About
                 </a>
-                <a className="navbar-item" href="#products">
+                <a className="navbar-item" href="/#products">
                     Products
                 </a>
-                <a className="navbar-item" href="#contact">
+                <a className="navbar-item" href="/#contact">
                     Contact Us
                 </a>
               </div>

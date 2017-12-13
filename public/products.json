@@ -1,21 +1,182 @@
 {
     "SALT": {
-        "background": "../../products_Imgs/about.png",
-        "cats":[
+        "background": "../../product-bg/salt-01.png",
+        "categories":[
             {
-                "name": "NAME",
-                "content": "CONTENT",
+                "name": "Industrial Salt",
                 "imgs":[
-                    
+                    "../../industrial salt/industrial salt(1).png",
+                    "../../industrial salt/industrial salt(2).png",
+                    "../../industrial salt/industrial salt(3).png",
+                    "../../industrial salt/industrial salt(4).png"
+                ]                
+            }
+            ,{
+                "name": "Edible Salt",
+                "imgs":[
+                    "../../edible salt/edible salt (1).png",
+                    "../../edible salt/edible salt (2).png"
+                ]
+            }
+            ,{
+                "name": "De-Ice",
+                "imgs":[
+                    "../../De-ice/De-ice (1).jpeg",
+                    "../../De-ice/De-ice (2).jpg",
+                    "../../De-ice/De-ice (3).png",
+                    "../../De-ice/De-ice (4).png",
+                    "../../De-ice/De-ice (5).jpg",
+                    "../../De-ice/De-ice (6).jpg",
+                    "../../De-ice/De-ice (7).jpg",
+                    "../../De-ice/De-ice (8).jpg",
+                    "../../De-ice/De-ice (9).jpg",
+                    "../../De-ice/De-ice (10).jpg",
+                    "../../De-ice/De-ice (11).jpg",
+                    "../../De-ice/De-ice (12).jpg",
+                    "../../De-ice/De-ice (13).jpg",
+                    "../../De-ice/De-ice (14).jpg",
+                    "../../De-ice/De-ice (15).jpg",
+                    "../../De-ice/De-ice (16).jpg",
+                    "../../De-ice/De-ice (17).jpg",
+                    "../../De-ice/De-ice (18).jpg",
+                    "../../De-ice/De-ice (19).jpg",
+                    "../../De-ice/De-ice (20).jpg",
+                    "../../De-ice/De-ice (21).jpg"
+                ]
+            }
+        ]
+    },
+    "Fruits and vegitables": {
+        "background": "../../product-bg/fruits and vegi-01.png",
+        "categories":[
+            {
+                "name": "Citrus",
+                "imgs":[
+                    "../../Citrus/lemon-01.png",
+                    "../../Citrus/lemon-02.png",
+                    "../../Citrus/lemon-03.png",
+                    "../../Citrus/lemon-04.png",
+                    "../../Citrus/orang-01.png",
+                    "../../Citrus/orang-02.png",
+                    "../../Citrus/orang-03.png",
+                    "../../Citrus/orang-04.png",
+                    "../../Citrus/orang-05.png",
+                    "../../Citrus/orang-06.png"
+
                 ]
             },
             {
-                "name": "NAME",
-                "content": "CONTENT",
+                "name": "GARLIC AND ONION",
                 "imgs":[
-                    "asdhkdsa",
-                    "dsasadkjhkdsa",
-                    "asdjshadjsah"
+                    "../../GARLIC AND ONION/garlic and onion-01.png",
+                    "../../GARLIC AND ONION/garlic and onion-02.png",
+                    "../../GARLIC AND ONION/garlic and onion-03.png",
+                    "../../GARLIC AND ONION/garlic and onion-04.png",
+                    "../../GARLIC AND ONION/garlic and onion-05.png",
+                    "../../GARLIC AND ONION/garlic and onion-06.png",
+                    "../../GARLIC AND ONION/garlic and onion-07.png"
+                ]
+            },
+            {
+                "name": "Fresh pomegranate",
+                "imgs":[
+                    "../../Fresh pomegranate Offer/logo-01.png",
+                    "../../Fresh pomegranate Offer/logo-02.png"
+
+                ]
+            },
+            {
+                "name": "Mango",
+                "imgs":[
+                    "../../Mango/mango 1.jpg",
+                    "../../Mango/mango 2.jpg",
+                    "../../Mango/mango 3.jpg",
+                    "../../Mango/mango 4.jpg",
+                    "../../Mango/mango 5-01.png"
+
+
+                ]
+            },
+            {
+                "name": "Strawberry",
+                "imgs":[
+                    "../../Strawberry/strawberry 1.jpg",
+                    "../../Strawberry/strawberry 2.jpg",
+                    "../../Strawberry/strawberry 3.jpg",
+                    "../../Strawberry/strawberry 4.jpg",
+                    "../../Strawberry/strawberry 6.jpg",
+                    "../../Strawberry/strawberry5.jpg"
+
+                ]
+            },
+            {
+                "name": "Apple",
+                "imgs":[
+                ]
+            },
+            {
+                "name": "Graps",
+                "imgs":[
+                ]
+            }
+
+        ]
+    },
+    "Fodders": {
+        "background": "../../fooder.png",
+        "categories": [
+            {
+                "name": "Soybeans meal pellets",
+                "imgs": [
+                ]
+            },
+            {
+                "name": "Sunflower meal pellets",
+                "imgs": [
+                    "../../fodders/Sunflower-meal.jpg"
+                ]
+            },
+            {
+                "name": "Corn sillage",
+                "imgs": [
+                    "../../fodders/corn sillage 1.jpg",
+                    "../../fodders/corn sillage 2.jpg"
+                ]
+            },
+            {
+                "name": "Yellow corn mazia and wheat",
+                "imgs": [
+                ]
+            },
+            {
+                "name": "Corn GLUTEN",
+                "imgs": [
+                    "../../fodders/Corn-gluten-feed.jpg"
+                ]
+            },
+            {
+                "name": "Alfalfa hay",
+                "imgs": [
+                    "../../fodders/alfalfa hay 1.jpg",
+                    "../../fodders/alfalfa hay 2.jpg",
+                    "../../fodders/alfalfa hay 3.jpg",
+                    "../../fodders/alfalfa hay 4.jpg",
+                    "../../fodders/alfalfa hay 5.jpg",
+                    "../../fodders/alfalfa hay 6.jpg",
+                    "../../fodders/alfalfa hay 7.jpg",
+                    "../../fodders/alfalfa hay 8.jpg",
+                    "../../fodders/alfalfa hay.jpg"
+                ]
+            },
+            {
+                "name": "Sugar beet pulp pellets",
+                "imgs": [
+                    "../../fodders/beet pulp pellets.jpg"
+                ]
+            },
+            {
+                "name": "Wheat Bran",
+                "imgs": [
                 ]
             }
         ]

@@ -1,4 +1,4 @@
-.hero-about{
+.is-bg-center-cover{
     background-position: center;
     background-size: cover;
 }
@@ -9,9 +9,6 @@
 
 .notfound{
     height: 85vh;
-    background-image: -webkit-linear-gradient(top, #000 , gray);
-    background-image: -moz-linear-gradient(top, #000 , gray);
-    background-image: linear-gradient(to bottom, #000 , gray);
 }
 
 .is-darkblue{
@@ -20,5 +17,26 @@
 }
 .is-darkblue:hover{
     background: #303350;
+    color: #fff;
+}
+.is-darkblue-active{
+    background: #303350;
+    color: #fff;
+}
 
+p{
+    font-size: 1.15em;
+    margin-bottom:10px;
+    
+}
+
+h2{
+    font-weight: 500;
+    margin-bottom:15px;
+}
+
+h3{
+    font-weight: 700;
+    margin-bottom:12px;
+    
 }

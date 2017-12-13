@@ -5,7 +5,7 @@
     color: #016485;
   }
   .textarea{
-    min-height: 195px;
+    min-height: 235px;
   }
   
   .contact{
@@ -78,4 +78,7 @@
 
   .s-icon{
     max-width: 50px;
+  }
+  .textarea:not([rows]) {
+    min-height : 195px;
   }

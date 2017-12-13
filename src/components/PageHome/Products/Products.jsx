@@ -10,33 +10,23 @@ import img6 from '../../../assets/6-08.png';
 import img7 from '../../../assets/6-09.png';
 
 
-function Product(props) {
-    return (
-        <div className="column" style={{ margin: '15px' }}>
-            <div className="projectCard" style={{backgroundImage: "url(" + props.img + ")"}}>
-                <div className="innerProject">
-                </div>
-                <h2 className="serviceTitle"> {props.name} </h2>
-            </div>
-        </div>
-    );
-}
+
 export class Products extends React.Component {
     render() {
 
         return (
 
             <div className="container" id="products">
-                <h1 className="is-size-2 has-text-centered" > PROJECTS </h1>
+                <h1 className="is-size-2 has-text-centered" > PRODUCTS </h1>
                 <br/>
                 <br/>
             <div className="columns is-desktop .is-variable is-1">
-                <Product name="HELLO" img={img1}/>
+                <Product name="SALT" img={img1} href='/product/SALT/0'/>
             </div>
             <div className="columns is-desktop .is-variable is-1">
                 <Product name="HELLO" img={img2}/>
-                <Product name="HELLO" img={img3}/>
-                <Product name="HELLO" img={img5}/>            
+                <Product name="fruits and vegetables" img={img3} href="/product/Fruits and vegitables/0"/>
+                <Product name="Fodders" img={img5} href="/product/Fodders/0"/>            
             </div>
             <div className="columns is-desktop .is-variable is-1">
                 <Product name="HELLO" img={img6}/>
@@ -48,4 +38,18 @@ export class Products extends React.Component {
             </div>
         );
     }
+}
+
+function Product(props) {
+    return (
+        <div className="column" style={{ margin: '15px' }}>
+            <a href={props.href}>
+                <div className="projectCard" style={{backgroundImage: "url(" + props.img + ")"}}>
+                    <div className="innerProject">
+                    </div>
+                    <h2 className="serviceTitle is-uppercase"> {props.name} </h2>
+                </div>
+            </a>
+        </div>
+    );
 }

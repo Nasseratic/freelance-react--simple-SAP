@@ -13,41 +13,73 @@ export class Contact extends React.Component {
           <div className="columns">
             <div className="column">
               <div className="field">
-                <label className="label">Name</label>
+                <label className="label">Name*</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="e.g Alex Smith" />
+                  <input className="input" type="text" placeholder="e.g MR. Alex Smith" />
                 </div>
               </div>
               <div className="field">
-                <label className="label">Email</label>
+                <label className="label">Email*</label>
                 <div className="control">
                   <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
                 </div>
               </div>
               <div className="field">
-                <label className="label">Phone</label>
+                <label className="label">Phone*</label>
                 <div className="control">
                   <input className="input" type="phone" placeholder="e.g. +966509699701" />
                 </div>
               </div>
-            </div>
-
-
-
-            <div className="column">
-            <div className="field">
-                <label className="label">Company</label>
+              <div className="field">
+                <label className="label">Fax</label>
+                <div className="control">
+                  <input className="input" type="phone" placeholder="e.g. +44409699701" />
+                </div>
+              </div>
+              <div className="field">
+                <label className="label">Company*</label>
                 <div className="control">
                   <input className="input" type="text" placeholder="e.g. lamaatech" />
                 </div>
               </div>
               <div className="field">
-                <label className="label">Message</label>
+                <label className="label">Interested in*</label>
                 <div className="control">
-                  <textarea className="textarea" placeholder="Textarea"></textarea>
+                  <div class="select" style={{width:'100%'}}>
+                    <select className="input">
+                      <option>Salt</option>
+                      <option>With options</option>
+                    </select>
+                  </div>
                 </div>
               </div>
-              <a className="button submitButton">SUBMIT</a>
+            </div>
+            <div className="column">
+              <div className="field">
+                <label className="label">Country*</label>
+                <div className="control">
+                  <input className="input" type="text" placeholder="e.g. Egypt" />
+                </div>
+              </div>
+              <div className="field">
+                <label className="label">City/town*</label>
+                <div className="control">
+                  <input className="input" type="text" placeholder="e.g. Cairo" />
+                </div>
+              </div>
+              <div className="field">
+                <label className="label">Zip Code*</label>
+                <div className="control">
+                  <input className="input" type="text" placeholder="e.g. 12001" />
+                </div>
+              </div>
+              <div className="field">
+                <label className="label">Message</label>
+                <div className="control">
+                  <textarea className="textarea" placeholder="Your Message"></textarea>
+                </div>
+              </div>
+              <a className="button submitButton is-medium">SUBMIT <i className="fa fa-send"></i> </a>
             </div>
 
           </div>
