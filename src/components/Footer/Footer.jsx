@@ -21,7 +21,7 @@ export class Footer extends React.Component {
             </div>
           </div>
         </footer>
-        <div className="powerd-by"> POWERD BY <a href="https://lamaatech.com">LAMAATECH</a></div>
+        {/* <div className="powerd-by"> POWERD BY <a href="https://lamaatech.com">LAMAATECH</a></div> */}
       </div>
     );
   }

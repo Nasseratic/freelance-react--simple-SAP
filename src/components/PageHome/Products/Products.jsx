@@ -24,14 +24,14 @@ export class Products extends React.Component {
                 <Product name="SALT" img={img1} href='/product/SALT/0'/>
             </div>
             <div className="columns is-desktop .is-variable is-1">
-                <Product name="HELLO" img={img2}/>
+                <Product name="Dry bulk charter vessel broker" img={img2} href="/product/Dry bulk/0"/>
                 <Product name="fruits and vegetables" img={img3} href="/product/Fruits and vegitables/0"/>
                 <Product name="Fodders" img={img5} href="/product/Fodders/0"/>            
             </div>
             <div className="columns is-desktop .is-variable is-1">
-                <Product name="HELLO" img={img6}/>
-                <Product name="HELLO" img={img7}/>
-                <Product name="HELLO" img={img4}/>            
+                <Product name="Beans" img={img6} href="/product/Beans/0"/>
+                <Product name="Wood Cement sugar" img={img7} href="/product/Wood/0"/>
+                <Product name="Innovation idea projects" img={img4} href="/product/Innovation/0"/>            
             </div>
                 <br/>
                 <br/>
