@@ -48,6 +48,12 @@ export class Contact extends React.Component {
                   <div class="select" style={{width:'100%'}}>
                     <select className="input">
                       <option>Salt</option>
+                      <option>Dry bulk charter vessel broker</option>
+                      <option>Fruits and vegetables</option>
+                      <option>Fodders</option>
+                      <option>Beans</option>
+                      <option>Wood Cement sugar</option>
+                      <option>Innovation idea projects</option>
                       <option>Other</option>
                     </select>
                   </div>
