@@ -45,6 +45,9 @@ export class Header extends React.Component {
                 <a className="navbar-item" href="/#contact">
                     Contact Us
                 </a>
+                <a className="navbar-item">
+                Useful links
+                </a>
               </div>
             </div>
             </div>
