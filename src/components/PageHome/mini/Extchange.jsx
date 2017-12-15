@@ -8,15 +8,15 @@ export class Extchange extends React.Component {
     }
     componentDidMount() {
         
-        this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=USD_EGP&compact=y').then( (res) =>{
-            this.setState(   { USD_EGP  : res.USD_EGP.val });
+        this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=USD_EUR&compact=y').then( (res) =>{
+            this.setState(   { EUR_USD  : (1/res.USD_EUR.val).toFixed(4) });
         });
-        this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=EUR_EGP&compact=y').then( (res) =>{
-            this.setState(   { EUR_EGP  : res.EUR_EGP.val });
-        });
-        this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=EUR_EGP&compact=y').then( (res) =>{
-            this.setState(   { EUR_EGP  : res.EUR_EGP.val });
-        });
+        // this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=EUR_EGP&compact=y').then( (res) =>{
+        //     this.setState(   { EUR_EGP  : res.EUR_EGP.val });
+        // });
+        // this.sendreq('https://cors-anywhere.herokuapp.com/https://free.currencyconverterapi.com/api/v5/convert?q=EUR_EGP&compact=y').then( (res) =>{
+        //     this.setState(   { EUR_EGP  : res.EUR_EGP.val });
+        // });
     }
     sendreq(url){
         return new Promise(function ( resolve , reject){
@@ -42,16 +42,16 @@ export class Extchange extends React.Component {
             <div className="columns is-centered">
                 <div className="c-card column is-3 has-text-centered">
                     <span className="has-text-white is-size-5" >
-                        {this.state.EUR_EGP}
-                        <span className="car">EUR</span> 
+                        {this.state.EUR_USD} 
+                        <span className="car"> EUR/USD</span> 
                     </span> 
                 </div>
-                <div className="c-card column is-3 has-text-centered"> 
+                {/* <div className="c-card column is-3 has-text-centered"> 
                     <span className="has-text-white is-size-5" >
                         {this.state.USD_EGP} 
                         <span className="car">USD</span> 
                     </span>
-                </div>
+                </div> */}
             </div>
 
         );

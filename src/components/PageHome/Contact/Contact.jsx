@@ -13,33 +13,33 @@ export class Contact extends React.Component {
           <div className="columns">
             <div className="column">
               <div className="field">
-                <label className="label">Name*</label>
+                <label className="label">First name*</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="e.g MR. Alex Smith" />
+                  <input className="input" type="text" placeholder="" />
+                </div>
+              </div>
+              <div className="field">
+                <label className="label">Last name*</label>
+                <div className="control">
+                  <input className="input" type="text" placeholder="" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">Email*</label>
                 <div className="control">
-                  <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
+                  <input className="input" type="email" placeholder="" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">Phone*</label>
                 <div className="control">
-                  <input className="input" type="phone" placeholder="e.g. +966509699701" />
+                  <input className="input" type="phone" placeholder="" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">Fax</label>
                 <div className="control">
-                  <input className="input" type="phone" placeholder="e.g. +44409699701" />
-                </div>
-              </div>
-              <div className="field">
-                <label className="label">Company*</label>
-                <div className="control">
-                  <input className="input" type="text" placeholder="e.g. lamaatech" />
+                  <input className="input" type="phone" placeholder="" />
                 </div>
               </div>
               <div className="field">
@@ -48,7 +48,7 @@ export class Contact extends React.Component {
                   <div class="select" style={{width:'100%'}}>
                     <select className="input">
                       <option>Salt</option>
-                      <option>With options</option>
+                      <option>Other</option>
                     </select>
                   </div>
                 </div>
@@ -56,35 +56,40 @@ export class Contact extends React.Component {
             </div>
             <div className="column">
               <div className="field">
+                <label className="label">Company*</label>
+                <div className="control">
+                  <input className="input" type="text" placeholder="" />
+                </div>
+              </div>
+              <div className="field">
                 <label className="label">Country*</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="e.g. Egypt" />
+                  <input className="input" type="text" placeholder="" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">City/town*</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="e.g. Cairo" />
+                  <input className="input" type="text" placeholder="" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">Zip Code*</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="e.g. 12001" />
+                  <input className="input" type="text" placeholder="" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">Message</label>
                 <div className="control">
-                  <textarea className="textarea" placeholder="Your Message"></textarea>
+                  <textarea className="textarea" placeholder=""></textarea>
                 </div>
               </div>
               <a className="button submitButton is-medium">SUBMIT <i className="fa fa-send"></i> </a>
             </div>
-
           </div>
 
-          <div className="columns">
+          {/* <div className="columns">
             <div className="column">
 
               <div className="column">
@@ -124,7 +129,7 @@ export class Contact extends React.Component {
                 </div>
               </div>
             </div>
-            {/* <div className="column divFollow">
+            <div className="column divFollow">
                     <div className="columns">
                       <h1 className="followus">Follow Us</h1>
                     </div>
@@ -148,8 +153,8 @@ export class Contact extends React.Component {
                         </a>
                       </div>
                     </div>
-                  </div> */}
-          </div>
+                  </div>
+          </div> */}
         </div>
 
       </div>

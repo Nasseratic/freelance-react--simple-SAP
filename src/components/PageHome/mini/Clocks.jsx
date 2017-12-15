@@ -5,7 +5,7 @@ export class Clocks extends React.Component {
     
     constructor(props){
         super(props);
-        this.state = { New_York : 0 , London : 0 };
+        this.state = { New_York : 0 , London : 0 , Hongkong:0 , CET:0};
     }
     componentDidMount() {
         setInterval(
@@ -13,7 +13,7 @@ export class Clocks extends React.Component {
             this.setState({
                 New_York: DateTime.local().setZone('America/New_York').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
                 London: DateTime.local().setZone('Europe/London').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
-                Hongkong: DateTime.local().setZone('Hongkong').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
+                Hongkong: DateTime.local().setZone('Asia/Hong_Kong').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
                 CET: DateTime.local().setZone('CET').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
                 });
           },
