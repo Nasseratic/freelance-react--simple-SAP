@@ -3,22 +3,6 @@
         "background": "../../product-bg/salt-01.png",
         "categories":[
             {
-                "name": "Industrial Salt",
-                "imgs":[
-                    "../../industrial salt/industrial salt(1).png",
-                    "../../industrial salt/industrial salt(2).png",
-                    "../../industrial salt/industrial salt(3).png",
-                    "../../industrial salt/industrial salt(4).png"
-                ]                
-            }
-            ,{
-                "name": "Edible Salt",
-                "imgs":[
-                    "../../edible salt/edible salt (1).png",
-                    "../../edible salt/edible salt (2).png"
-                ]
-            }
-            ,{
                 "name": "De-Ice",
                 "imgs":[
                     "../../De-ice/De-ice (1).jpeg",
@@ -41,9 +25,29 @@
                     "../../De-ice/De-ice (18).jpg",
                     "../../De-ice/De-ice (19).jpg",
                     "../../De-ice/De-ice (20).jpg",
-                    "../../De-ice/De-ice (21).jpg"
+                    "../../De-ice/De-ice (21).jpg",
+                    "../../De-ice/rock salt ..jpg",
+                    "../../De-ice/rock salt 1.jpg",
+                    "../../De-ice/rock salt.jpg"
+                ]
+            },
+            {
+                "name": "Industrial Salt",
+                "imgs":[
+                    "../../industrial salt/industrial salt(1).png",
+                    "../../industrial salt/industrial salt(2).png",
+                    "../../industrial salt/industrial salt(3).png",
+                    "../../industrial salt/industrial salt(4).png"
+                ]                
+            }
+            ,{
+                "name": "Edible Salt",
+                "imgs":[
+                    "../../edible salt/edible salt (1).png",
+                    "../../edible salt/edible salt (2).png"
                 ]
             }
+            
         ]
     },
     "Fruits and vegitables": {
