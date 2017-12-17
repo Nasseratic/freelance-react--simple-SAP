@@ -69,7 +69,7 @@ export class Product extends React.Component {
 function CategoryNav(params) {
     let navs = params.navs.map((e, index) => {
         return (<div className="column is-4">
-            <a href={'./' + index} className={ index == params.index ? 'button is-outlined full is-uppercase is-large is-size-4 is-darkblue-active' : 'button is-outlined full is-uppercase is-large is-size-4 is-darkblue' }> {e.name} </a>
+            <a href={'./' + index} className={ index == params.index ? 'button is-outlined full is-uppercase is-medium is-size-6 is-darkblue-active' : 'button is-outlined full is-uppercase is-medium is-size-6 is-darkblue' }> {e.name} </a>
         </div>)
     });
     return (
@@ -154,6 +154,145 @@ function ProductContent(params){
 }
 
 let contents = {};
+
+contents['Kidney white beans'] = (
+    <body>
+    <h1> Kidney white beans </h1>
+         
+         <p>
+             White kidney beans are a protein-rich starchy vegetable, full of vitamins, minerals and an excellent source of dietary fiber. Adding them to your diet offers a variety of health benefits such as promoting digestive health and preventing heart disease. White kidney beans are large and squared at the edges, unlike smaller white beans, such as navy beans.
+   
+         </p>
+         
+         <h2>Specifications:</h2>
+         <p>180/200 or 180/200 beans for each 100 gram </p>
+         
+         <h2>packing</h2>
+         <p>In bags 25 k.g . Container 20 fet , 23 ton of kidney white beans</p>
+     </body>
+);
+
+contents['Coffe Beans'] = (
+    <body>
+<h2> coffe Beans</h2>
+      <p>
+          Types of coffee beans. The two main types of coffee beans are Coffee Arabica and Coffee Robusta. People also use a blend of both beans. Both types of coffee beans taste differently depending on where and how they are grown. What is the difference in Coffee Robusta versus Coffee Arabica? Do types of coffee beans used make a difference? 
+          <br/>
+The types of coffee beans used to make the morning coffee everyday are probably of little concern to the average person. However, the true coffee lover knows the various types of coffee beans if for no other reason than to be able to pick out their favorites from among the many available varieties. The two most common types of coffee beans used in making coffee are the Arabic bean and the Robusta bean. These two beans are used more than any other variety of beans, either in their pure form or in coffee blends.
+
+      </p>
+  </body>
+);
+
+contents['Cocoa beans'] = (
+    <body>
+    <p>
+        The three main varieties of cocoa plant are Forastero, Criollo, and Trinitario. The first is the most widely used, comprising 80-90% of the world production of cocoa. Cocoa beans of the Criollo variety are rarer and considered a delicacy 
+   we offer the three varieties of cocoa beans.
+   <h3>Contact us for more details and for best offer </h3>
+   </p>
+     </body>
+);
+contents['Corn sillage']= (
+    <p> 
+       <strong>Corn silage</strong>  is a popular forage for ruminant animals because it is high in energy and digestibility and is easily adapted to mechanization from the stand-crop to time of feeding. <strong>Corn silage</strong> should have a light, pleasant smell with only a slight vinegar odor. It should be slightly brown to dark green.
+        Contact us for best offer 
+    </p>
+ );
+contents['Dry bulk vesel']= (
+    <body>
+    <p> 
+        We offer various services related with import and exports of goods to different destinations around the world, our services includes Customs Clearing & Forwarding,  handling of Project Cargoes and Heavy Lifts, Chartering Broker, Freight Forwarding, and Bunkering.
+    
+    </p>
+          
+     <h2> Chartering </h2>     
+    <p>
+        Chartering is handled via our world wide relation network with the aim of getting the most out of every cargo and seeing that you also will have a through update and our best services during the exclusive charter period.
+    We specialize in chartering vessels for the following goods: Urea, Minerals (clay – feldspar – salt- silica sand), Cement (clinker – cement), Steel production (Steel bars – steel billets), Vegetables (potatoes – citrus-onions)
+    We specialize in the following geographic areas: all Mediterranean, Aegean sea, Marmarah sea, and Black sea, Red sea, West Africa, Continental and Baltic sea , Adriatic sea , and north sea 
+    
+     <h2> Ship brokers (specialist)  </h2> 
+          Brokerage/charting of tonnage from 1000 Mt Dwt up to panamax DWT for exclusive charters. The company has a team of dedicated brokers, who are constantly in touch with the market and are capable of advising the clients about the changing market scenario. We have been successful in establishing a very close working relationship with a number of ship owners and charters and offer them the highest level of personalized service
+    
+    <h2>Types of Goods We ship  </h2>
+          
+          <ul>
+              <li>
+                  Fertilizers (ammonium nitrate – ammonium sulphate – sulphate of potash – urea – sulphur)
+    
+              </li>
+              
+              <li>
+                  Minerals (clay – feldspar – salt- silica sand)
+    
+              </li>
+              
+              <li>
+                  Cement (clinker – cement)
+    
+              </li>
+              
+              <li>
+                  Steel production (Steel bars – steeb billets- hot briquelled iron - scrap)
+              </li>
+              
+              <li>
+                 Timber
+     
+              </li>
+              
+              <li>
+                  Coke
+    
+              </li>
+              
+              <li>
+                  Vegetables (potatoes – citrus-onions)
+    
+              </li>
+              
+              <li>
+                  Grain wheat – corn – rice
+    
+              </li>
+              
+              <li>
+                  Project  and heavy lift cargoes
+    
+              </li>
+          </ul>
+          
+          <h2> Project Cargo Handling </h2>
+          
+          <ul>
+              <li>
+                  We handle all types of project cargoes 
+              </li>
+              
+              <li>
+                  We have specialized personnel for Cargo Handling Services
+              </li>
+              
+              <li>
+                 we also have access to the range of material handling equipment
+              </li>
+              
+              <li>
+                  We offer project cargo handling services
+              </li>
+              
+              <li>
+                  We can arrange all kinds of material transportation aid for sea and overland operations at ease.
+              </li>
+          </ul>
+    </p>      
+          
+          
+          
+      </body>
+);
+
 contents['Corn GLUTEN'] =(
     <body>
     <h2>CORN GLUTEN MEAL</h2>
@@ -201,7 +340,7 @@ contents['Sugar beet pulp pellets'] =(
 <body>
 <h2> High quality Sugar beet pulp pellets </h2>
 
-    <table>
+    <table className="table is-bordered">
         <tbody>
         <tr>
             <td>Moisture</td>
@@ -266,7 +405,7 @@ contents['Yellow corn mazia and wheat'] =(
 </p>
 
 <h3> Specifications </h3>
-<table>
+<table className="table is-bordered">
     <tbody>
     <tr>
         <td>Grade</td>
@@ -328,6 +467,7 @@ contents['Yellow corn mazia and wheat'] =(
  </body>
 );
 
+
 contents['Sunflower meal pellets'] =(
     <body>
 <h2>Sunflower Meal</h2>
@@ -335,7 +475,7 @@ contents['Sunflower meal pellets'] =(
         It is included in food intake for cattle, poultry and fish.
     </p>
 
-<table>
+<table className="table is-bordered">
     <tbody>
     <tr>
         <td>Country Of Origin</td>
@@ -390,7 +530,7 @@ contents['Sunflower meal pellets'] =(
 contents['Soybeans meal pellets'] =(
     <body>
  <h2>Soybeans meals in bags 25 k.g</h2>
-    <table>
+    <table className="table is-bordered">
         <tbody>
         <tr>
             <td>Product Name</td>
@@ -903,7 +1043,7 @@ contents['De-Ice'] = (
     It is much efficient, easy to use, easy to spread, store and handle
     It is harmless to skin, clothing and environment
         analysis as following , NacL OVER 98.59% ( purity) , Moisture 0.42 % and Water Insoluble 0.46 %  , </p>
-    <table>
+    <table className="table is-bordered">
     <tbody>
         <tr>
             <th>Elements</th>

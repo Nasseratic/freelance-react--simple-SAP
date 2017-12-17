@@ -123,7 +123,7 @@
         ]
     },
     "Fodders": {
-        "background": "../../fooder.png",
+        "background": "../../product-bg/fodder.png",
         "categories": [
             {
                 "name": "Soybeans meal pellets",
@@ -139,8 +139,11 @@
             {
                 "name": "Corn sillage",
                 "imgs": [
-                    "../../fodders/corn sillage 1.jpg",
-                    "../../fodders/corn sillage 2.jpg"
+                    "../../corn sillage/corn sillage 1.jpg",
+                    "../../corn sillage/corn sillage 2.jpg",
+                    "../../corn sillage/corn-silage 2.jpg",
+                    "../../corn sillage/corn sillage.jpg"
+                    
                 ]
             },
             {
@@ -177,6 +180,48 @@
             {
                 "name": "Wheat Bran",
                 "imgs": [
+                ]
+            }
+        ]
+    },
+    "Dry bulk": {
+        "background": "../../product-bg/vesel.png",
+        "categories": [
+            {
+                "name": "Dry bulk vesel",
+                "imgs": [
+                    "../../dry bulk vesel/dry bulk ship.jpg"
+                ]
+            }
+        ]
+    },
+    "Beans": {
+        "background": "../../product-bg/beans.png",
+        "categories":[
+            {
+                "name": "Coffe Beans",
+                "imgs":[
+    
+                ]
+            },
+            {
+                "name": "Kidney white beans",
+                "imgs":[
+                    "../../kidney white beans/kidney , white beans.jpg",
+                    "../../kidney white beans/kidney white beans 1.jpg",
+                    "../../kidney white beans/kidney white beans 2.jpg",
+                    "../../kidney white beans/kidney white beans 3.jpg",
+                    "../../kidney white beans/kidney white beans.jpg"
+                ]
+            },
+            {
+                "name": "Cocoa beans",
+                "imgs":[
+                    "../../cocoa beans/COCOA ,BEANS ,.jpg",
+                    "../../cocoa beans/COCOA BEANS.jpg",
+                    "../../cocoa beans/COCOA -BEANS.jpg",
+                    "../../cocoa beans/cocoa-beans tree.jpg",
+                    "../../cocoa beans/cocoa-beans.jpg"
                 ]
             }
         ]
