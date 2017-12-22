@@ -155,6 +155,205 @@ function ProductContent(params){
 
 let contents = {};
 
+contents['Cement'] = (
+<body>
+ <h2 className=" has-bg-blue is-size-4">1: cement </h2>
+      <h2 className=" has-bg-blue is-size-4">Ordinary Portland Cement 1 </h2>
+      <h3 className="has-text-dark is-size-5"> CEM I (32.5R) </h3>
+      <h3 className="has-text-dark is-size-5">ORDINARY PORTLAND CEMENT CEM I ( 32.5R)CEM I ( 32.5R)</h3>
+      <br/>
+      
+      <h3 className="has-text-dark is-size-5">Standards</h3>
+      <p>European Standards: (2004/1- EN197)CEM I (32.5R)</p>
+      <br/>
+      
+      <h3 className="has-text-dark is-size-5">uses</h3>
+      <p>It is used in all reinforced concrete constructions such as reinforced buildings, water tanks, roads and bridges. It is also used for all construction works which are  subject to high stresses but  not exposed directly to sulfate salts
+</p>
+ <h2 className=" has-bg-blue is-size-4">Portland Ferric Cement</h2>     
+      <h3 className="has-text-dark is-size-5">CEM II (42.5R )</h3>
+      <h3 className="has-text-dark is-size-5">CEMENT PRODUCT CEM I ( 42.5R) CEM I ( 42.5R)</h3>
+      <br/>
+      <h3 className="has-text-dark is-size-5">Standards</h3>
+      <p>European Standards: (2004/1- EN197)          CEM I (42.5R)</p>
+      <br/>
+      
+      <h3 className="has-text-dark is-size-5">Uses</h3>
+      <p>It is used in all reinforced concrete constructions such as reinforced buildings, water tanks, roads and bridges. It is also used for all construction works which are subject to high stresses but  not exposed directly to sulfate salts.
+</p>
+      
+    <h2 className=" has-bg-blue is-size-4">Sulfur resistance cement</h2>  
+      <h3 className="has-text-dark is-size-5">CEM II/B-S (32.5N)</h3>
+      <br/>
+      <h3 className="has-text-dark is-size-5">SULFATE-RESISTANT CEMENT CEM II / B-S ( 32.5N)    CEM II /B-S( 32.5N )</h3>
+      <h3 className="has-text-dark is-size-5">Standards</h3>
+      <p>European Standards: (2004/1- EN197)          CEM II / B-S (32.5N)</p>
+      <h3 className="has-text-dark is-size-5">Uses</h3>
+      <pre>
+      For non-constructive  purposes
+      For plastering as well as for finishing purposes
+      For manufacturing of cement bricks.
+      For manufacturing of cement tiles
+
+      </pre>
+      
+    <br/>
+      <pre> 
+      Cement is available for export in any of the following forms according to client's desire:
+1. Bags weighing 50 kg each (±1kg) 
+2. Bulk Cement
+Producers of cement  with following certification 
+ISO 2008 . 9001
+ISO 2004 . 140001
+ 	 Certificate (CE – MAEK) 
+ O.P.C 42.5R
+ O.P.C 42.5N
+ O.P.C 32.5r
+2:- we offer GYPSUM FOR CONSTRUCTION 
+TECHNICAL SPECIFICATIONS    contact us for analysis and back details
+</pre>
+      
+      
+  </body>
+);
+
+contents['Sugar']=(
+
+  <body>
+      
+ <h2 className=" has-bg-blue is-size-4">Sugar </h2>
+      
+      <p>
+          The European Union (EU) is the world's biggest producer of beet sugar and the principal importer of raw cane sugar for refining. While the EU countries have a common market organisation for sugar, the EU has agreements with other countries worldwide on sugar import and export.
+          <br/>
+          
+The EU is the world’s leading producer of beet sugar, with around 50% of the total. However, beet sugar represents only 20% of the world’s sugar production; the other 80% is produced from sugar cane.
+          <br/>
+          
+Most of the EU's sugar beet is grown in the northern half of Europe, where the climate is more suited to growing beet. The most competitive producing areas are in northern France, Germany, the United Kingdom and Poland. The EU also has an important refining industry that processes imported raw cane sugar.
+<br/>
+
+
+We offer best quality of European origin sugar in bags 50k.g , or jumbo bags 
+<h4>Contact us for more details and best offer for you.</h4>
+      </p>
+     
+  </body>
+
+);
+
+contents['Wood']=(
+    <body>
+      
+ <h2 className=" has-bg-blue is-size-4">1:-Logs wood </h2>
+      
+      
+      <h2 className=" has-bg-blue is-size-4"> 2:-Timber for constraction wood art  </h2>
+      
+      <ul>
+          <li> Spruce fresh cutting Anti stain made in euro see in attached Pictures</li>
+          
+          <li>We delivery 800 cbm only Bulk </li>
+          
+          <li>Quality l-ll-lll or  mixed.</li>
+          
+          <li>We can delivery also other kind of wood </li>
+          
+          <li>softwood as Pine</li>
+          
+          <li>Hardwood as beech/Ash & Oak </li>
+          
+          <li>KD or AD </li>
+          
+          <li>Depending of the order. </li>
+      </ul>
+      
+      
+      <h2 className=" has-bg-blue is-size-4">3:- we offer all kinds of plywood for furniture and we offer all euro veneers</h2>
+      
+      <h2 className=" has-bg-blue is-size-4">4:- Flooring </h2>
+      <h3 className="has-text-dark is-size-5">1:- LAMINATE FLOORS</h3>
+      <p>
+          Laminate floors have a natural timber touch, high durability and are easy-care. The product portfolio gives the chance for individual
+          <br/>
+furnishing ideas – from the 1-strip flooring and 2-strip flooring up to the 3-strip flooring. Laminate floors are easy to lay. It can
+          <br/>
+be easily dissembled and layed somewhere else again. Laminate floorings are suitable for private rooms as well as for industry.
+
+      </p>
+      <h3 className="has-text-dark is-size-5">SURFACE TEXTURES FLOORS</h3>
+      <ul>
+          <li> Chrome Pore</li>
+          <li>  4-side beveled </li>
+      </ul>
+      
+      <h3 className="has-text-dark is-size-5"> CONTENT </h3>
+      <ul>
+          <li>Chalet: Advanced & Basic: </li>
+          <li> 1 package = 4 pieces = 1,387 m² 1 package = 8 pieces = 2,131 m²</li>
+          <li>   1 palette = 56 packages = 77,697 m² 1 palette = 56 packages = 119,32 m²
+  </li>
+      </ul>
+      
+      
+      
+ <h3 className="has-text-dark is-size-5">2:- VINYL FLOORS </h3>
+    <p>
+        Vinyl floors are modern, practically, easy-care and comfortable. Frischeis offers a wide range of vinyl floors – from warm tones up
+to stylish stone decor so our customers can place emphasis as they like. Vinyl floors are furthermore very hard-wearing so they
+can be used for private rooms as well as for industry.
+
+      </p>  
+      <h3 className="has-text-dark is-size-5">SURFACE TEXTURES FLOORS</h3>
+      <p> mat laquered</p>
+      <h3 className="has-text-dark is-size-5">content </h3>
+      <ul>
+          <li>Timber look: stone look: </li>
+          <li> 1 package = 6 pieces = 1,52 m² 1 package = 6 pieces = 1,02 m² </li>
+          <li> 1 palette = 56 packages = 85,03 m² 1 palette = 84 packages = 85,47 m²</li>
+      </ul>
+      
+      <h3 className="has-text-dark is-size-5">PRODUCT SPECIFICATION</h3>
+      <pre>Top-layer: 0,55 or 0,3 vinyl
+           Core-layer: HDF </pre>
+      
+      
+      <h3 className="has-text-dark is-size-5">3:- PARQUET</h3>
+      <h3 className="has-text-dark is-size-5"> STRIP FLOORING </h3>
+      <h3 className="has-text-dark is-size-5">SURFACE</h3>
+      <ul>
+          <li> lacquered </li>
+          <li>  matt lacquered </li>
+          <li>  white lacquered</li>
+          <li> oiled</li>
+      </ul>
+      
+      <h3 className="has-text-dark is-size-5">PRODUCT SPECIFICATION</h3>
+      <ul>
+          <li>3-ply construction:</li>
+          <li> 1) Top-layer: 3,5 mm hardwood </li>
+          <li> 2) Core-layer: spruce-chopsticks</li>
+          <li>3) Reverse side: softwood</li>
+      </ul>
+      
+      <h3 className="has-text-dark is-size-5">CONTENT</h3>
+      <ul><li>
+          1 package = 6 pieces = 2,5344 m²
+
+          </li>
+          <li>
+              1 palette = 35 packages = 80,70 m²
+
+          </li>
+          <li>
+              Or 1 palette = 48 packages = 111,744 m²
+
+          </li>
+      </ul>
+
+      
+  </body>
+);
 contents['Kidney white beans'] = (
     <body>
     <h2 className=" has-bg-blue is-size-4"> Kidney white beans </h2>
