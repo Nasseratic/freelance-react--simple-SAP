@@ -14,7 +14,7 @@ export class Clocks extends React.Component {
                 New_York: DateTime.local().setZone('America/New_York').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
                 London: DateTime.local().setZone('Europe/London').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
                 Hongkong: DateTime.local().setZone('Asia/Hong_Kong').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
-                CET: DateTime.local().setZone('CET').toLocaleString(DateTime.TIME_24_WITH_SECONDS),
+                CET: DateTime.local().setZone('CET').minus({hour: 1}).toLocaleString(DateTime.TIME_24_WITH_SECONDS),
                 });
           },
           1000

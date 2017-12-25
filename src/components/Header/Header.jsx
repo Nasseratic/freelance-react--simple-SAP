@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css'
 import logo from './logo.png';
+import { Link  } from 'react-router-dom';
+
 export class Header extends React.Component {
     
     constructor(props){
@@ -33,21 +35,21 @@ export class Header extends React.Component {
             <div id="navbarExampleTransparentExample" className={ this.state.toggleNav ? 'navbar-menu is-active' : 'navbar-menu' } >
               
               <div className="navbar-end">
-                <a className="navbar-item" href="/">
+                <Link className="navbar-item"to="/">
                     Home
-                </a>
-                <a className="navbar-item" href="/about">
+                </Link>
+                <Link className="navbar-item" to="/about">
                     About
-                </a>
+                </Link>
                 <a className="navbar-item" href="/#products">
                     Products
                 </a>
                 <a className="navbar-item" href="/#contact">
                     Contact Us
                 </a>
-                <a className="navbar-item">
+                <Link className="navbar-item" to="/">
                 Useful links
-                </a>
+                </Link>
               </div>
             </div>
             </div>

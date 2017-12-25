@@ -3,7 +3,8 @@
         "background": "../../product-bg/salt-01.png",
         "categories":[
             {
-                "name": "De-Ice",
+                "name": "De-Ice Salt",
+                "fimg": "../../catimg/remove.jpg",
                 "imgs":[
                     "../../De-ice/De-ice (1).jpeg",
                     "../../De-ice/De-ice (2).jpg",
@@ -33,6 +34,7 @@
             },
             {
                 "name": "Industrial Salt",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../industrial salt/industrial salt(1).png",
                     "../../industrial salt/industrial salt(2).png",
@@ -42,6 +44,7 @@
             }
             ,{
                 "name": "Edible Salt",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../edible salt/edible salt (1).png",
                     "../../edible salt/edible salt (2).png"
@@ -55,6 +58,7 @@
         "categories":[
             {
                 "name": "Citrus",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../Citrus/lemon-01.png",
                     "../../Citrus/lemon-02.png",
@@ -71,6 +75,7 @@
             },
             {
                 "name": "GARLIC AND ONION",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../GARLIC AND ONION/garlic and onion-01.png",
                     "../../GARLIC AND ONION/garlic and onion-02.png",
@@ -83,6 +88,7 @@
             },
             {
                 "name": "Fresh pomegranate",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../Fresh pomegranate Offer/logo-01.png",
                     "../../Fresh pomegranate Offer/logo-02.png"
@@ -91,6 +97,7 @@
             },
             {
                 "name": "Mango",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../Mango/mango 1.jpg",
                     "../../Mango/mango 2.jpg",
@@ -103,6 +110,7 @@
             },
             {
                 "name": "Strawberry",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../Strawberry/strawberry 1.jpg",
                     "../../Strawberry/strawberry 2.jpg",
@@ -115,11 +123,13 @@
             },
             {
                 "name": "Apple",
+                "fimg": "../../catimg/",
                 "imgs":[
                 ]
             },
             {
                 "name": "Graps",
+                "fimg": "../../catimg/",
                 "imgs":[
                 ]
             }
@@ -131,17 +141,23 @@
         "categories": [
             {
                 "name": "Soybeans meal pellets",
+                "fimg": "../../catimg/",
                 "imgs": [
+                    "../../fodders/soybean_meal_beans",
+                    "../../fodders/Soybean_Meal.jpg"
+                                        
                 ]
             },
             {
                 "name": "Sunflower meal pellets",
+                "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/Sunflower-meal.jpg"
+                    "../../fodders/sunflower meal pellets.jpg"
                 ]
             },
             {
                 "name": "Corn sillage",
+                "fimg": "../../catimg/",
                 "imgs": [
                     "../../corn sillage/corn sillage 1.jpg",
                     "../../corn sillage/corn sillage 2.jpg",
@@ -152,17 +168,26 @@
             },
             {
                 "name": "Yellow corn mazia and wheat",
+                "fimg": "../../catimg/",
                 "imgs": [
+                    "../../fodders/corn.jpeg",
+                    "../../fodders/corn.jpg"
                 ]
             },
             {
                 "name": "Corn GLUTEN",
+                "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/Corn-gluten-feed.jpg"
+                    "../../fodders/Corn-gluten-feed.jpg",
+                    "../../fodders/corn gulten,",
+                    "../../fodders/corn gulten",
+                    "../../fodders/corn gulten."
+
                 ]
             },
             {
                 "name": "Alfalfa hay",
+                "fimg": "../../catimg/",
                 "imgs": [
                     "../../fodders/alfalfa hay 1.jpg",
                     "../../fodders/alfalfa hay 2.jpg",
@@ -177,13 +202,17 @@
             },
             {
                 "name": "Sugar beet pulp pellets",
+                "fimg": "../../catimg/",
                 "imgs": [
                     "../../fodders/beet pulp pellets.jpg"
                 ]
             },
             {
                 "name": "Wheat Bran",
+                "fimg": "../../catimg/",
                 "imgs": [
+                    "../../fodders/wheat.jpg"
+                    
                 ]
             }
         ]
@@ -193,6 +222,7 @@
         "categories": [
             {
                 "name": "Dry bulk vesel",
+                "fimg": "../../catimg/",
                 "imgs": [
                     "../../dry bulk vesel/dry bulk ship.jpg"
                 ]
@@ -204,12 +234,14 @@
         "categories":[
             {
                 "name": "Coffe Beans",
+                "fimg": "../../catimg/",
                 "imgs":[
     
                 ]
             },
             {
                 "name": "Kidney white beans",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../kidney white beans/kidney , white beans.jpg",
                     "../../kidney white beans/kidney white beans 1.jpg",
@@ -220,6 +252,7 @@
             },
             {
                 "name": "Cocoa beans",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../cocoa beans/COCOA ,BEANS ,.jpg",
                     "../../cocoa beans/COCOA BEANS.jpg",
@@ -235,6 +268,7 @@
         "categories":[
             {
                 "name": "Wood",
+                "fimg": "../../catimg/",
                 "imgs":[
                   "../../wood/wood (1).jpg",
                   "../../wood/wood (2).jpg",
@@ -269,6 +303,7 @@
             },
             {
                 "name": "Cement",
+                "fimg": "../../catimg/",
                 "imgs":[
                     "../../cement/cement (1).jpg",
                     "../../cement/cement (2).jpg"
@@ -276,6 +311,7 @@
             },
             {
                 "name": "Sugar",
+                "fimg": "../../catimg/",
                 "imgs":[
                 ]
             }

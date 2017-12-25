@@ -34,10 +34,10 @@ export class Home extends React.Component {
                         <div className="container  has-text-centered">
 
                             <h1 className="title has-text-white is-size-1 is-uppercase">
-                            Primary bold title
+                            Hashem
                             </h1>
                             <h2 className="subtitle has-text-grey-lighter is-size-3 is-uppercase">
-                            Primary bold subtitle
+                            For import and export 
                             </h2>
 
                         </div>

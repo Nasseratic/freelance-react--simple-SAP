@@ -19,10 +19,8 @@ export class About extends React.Component {
                     </div>
                     <div className="column is-7 content">
                         <h2 className="title">About Us</h2>
-                        <h4 className="subtitle has-text-white has-bg-blue">Ex ipsum deserunt occaecat sit.</h4>
-                        <p className="content"> Excepteur eiusmod pariatur ex enim qui eiusmod. Amet eiusmod tempor deserunt deserunt exercitation. Id non adipisicing sint eiusmod ex tempor incididunt eu. Duis duis mollit non est non commodo qui tempor consequat mollit irure. Et deserunt exercitation dolore amet ad.
-
-Commodo quis ipsum eiusmod qui sit nostrud velit proident et dolore tempor. Id id est aliqua enim sint ea nostrud adipisicing veniam ullamco est consectetur deserunt. Sunt eiusmod in veniam est ullamco magna magna enim dolore duis cillum voluptate reprehenderit ex. Esse dolore in ullamco pariatur sint. Aliqua pariatur ut excepteur qui. </p>
+                        {/* <h4 className="subtitle has-text-white has-bg-blue">Ex ipsum deserunt occaecat sit.</h4> */}
+                        <p className="content"> Hashem d.o.o for import and export is one of the leading wholesale trade and distributer in Slovenian market and euro market , hashem d.o.o looking for add value to euro economic , helping producers in Europe to exporting their products ,by our strong distributions and dealer (commercial agents) in many countries around the world , and satisfy our customers outside euro by quality Europeans products , arrive in time, the company Hashem d.o.o founded in 2014 and company able to export all euro products from salt , grain fodders , fruits and vegetables , beans , wood cement and European sugar , we are dry bulk charter vessel broker... <a href="/about">read more..</a> </p> 
                     </div>
                 </div>
             </div>

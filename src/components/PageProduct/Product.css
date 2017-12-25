@@ -14,12 +14,21 @@
 .is-darkblue{
     border-color: #303350;
     color:#303350;
+    text-transform: capitalize !important;
 }
 .is-darkblue:hover{
     background: #303350;
     color: #fff;
 }
+.is-darkblue:focus{
+    background: #303350;
+    color: #fff;
+}
 .is-darkblue-active{
+    background: #303350;
+    color: #fff;
+}
+.is-darkblue-active:focus{
     background: #303350;
     color: #fff;
 }
@@ -33,10 +42,11 @@ p{
 h2{
     font-weight: 500;
     margin-bottom:15px;
+    text-transform: capitalize !important;
 }
 
 h3{
     font-weight: 700;
     margin-bottom:12px;
-    
+     text-transform: capitalize !important;
 }
