@@ -163,6 +163,37 @@ function ProductContent(params) {
 
 let contents = {};
 
+contents['Innovation']=(
+    <body>
+      
+    <h2 className=" has-bg-blue is-size-4">Innovation idea project</h2>
+         
+         <ul>
+             <li> 1: solar energy </li>
+             
+             <li>2:- wind energy</li>
+             
+             <li>3:- waves energy</li>
+             
+         </ul>
+         
+         <p>
+             Sea waves energy going to be huge important industrial development this innovation is happening in many countries around the globe , money starting focus in this area , it is not source of energy , it is source of income , long term economic developments, give long time supply of electricity ,
+             <br/>
+             
+   When you talk about about fuel poverty, when you talk about low cost, go for exactable supply cheapest way for supply electricity.
+             
+             <br/>
+             
+   World going to be green , and with renew energy source , clean source from natural , making clean environment , for reduce high temperatures of earth now, we try to help too .
+             <br/>
+   
+   Contact us for business corporations 
+   best offer supply you electricity by our business partners in this in euro and Japan.
+         </p>
+         
+     </body>
+);
 contents['Cement'] = (
     <body>
         <h2 className=" has-bg-blue is-size-4">1: cement </h2>
@@ -374,7 +405,7 @@ contents['Kidney white beans'] = (
 
 
         <h2>Specifications:</h2>
-        <p>180/200 or 180/200 beans for each 100 gram </p>
+        <p>180/200 or 200/220 beans for each 100 gram </p>
 
         <h2>packing</h2>
         <p>In bags 25 k.g . Container 20 fet , 23 ton of kidney white beans</p>
@@ -767,6 +798,14 @@ contents['Sunflower meal pellets'] = (
 
 contents['Soybeans meal pellets'] = (
     <body>
+        From our merchandisers, who can help you decide which contracts are right for you, to our wide range of products and services, we’re ready to help you manage risk, feed your livestock and protect your assets.
+        <br/>
+The reason is simple—we know that when it comes to feeding and fueling the world, we’re in this business together. And in order for us to succeed, you must succeed.
+<br/>
+Take a moment to browse around and learn how company name  can be a vital contributor to your success. Or, contact us today
+And helping fodder factories by supply them the raw material of grain and fodder with best price and best quality to reduce the cost of product to the lowest.
+<br/>
+ We are suppliers of high quality animal fee meal at the most affordable and competitive prices in   the market.
         <h2 className=" has-bg-blue is-size-4"> Soybeans meals in bags 25 k.g</h2>
         <table className="table is-bordered">
             <tbody>
