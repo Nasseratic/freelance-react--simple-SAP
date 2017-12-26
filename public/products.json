@@ -8,6 +8,8 @@
                 "imgs":[
                     "../../De-ice/De-ice (1).jpeg",
                     "../../De-ice/De-ice (2).jpg",
+                    "../../De-ice/De-ice (3).jpg",
+                    "../../De-ice/De-ice (4).jpg",
                     "../../De-ice/De-ice (3).png",
                     "../../De-ice/De-ice (4).png",
                     "../../De-ice/De-ice (5).jpg",
@@ -27,6 +29,8 @@
                     "../../De-ice/De-ice (19).jpg",
                     "../../De-ice/De-ice (20).jpg",
                     "../../De-ice/De-ice (21).jpg",
+                    "../../De-ice/De-ice (1).png",
+                    "../../De-ice/De-ice (2).png",
                     "../../De-ice/rock salt ..jpg",
                     "../../De-ice/rock salt 1.jpg",
                     "../../De-ice/rock salt.jpg"
@@ -69,7 +73,13 @@
                     "../../Citrus/orang-03.png",
                     "../../Citrus/orang-04.png",
                     "../../Citrus/orang-05.png",
-                    "../../Citrus/orang-06.png"
+                    "../../Citrus/orang-06.png",
+                     "../../Citrus/oranges 1.jpg",
+                     "../../Citrus/oranges 2.jpg",
+                     "../../Citrus/oranges 3.jpg",
+                     "../../Citrus/oranges..jpg",
+                     "../../Citrus/oranges.jpg",
+                     "../../Citrus/oranges1.jpg"
 
                 ]
             },
@@ -88,36 +98,45 @@
             },
             {
                 "name": "Fresh pomegranate",
-                "fimg": "../../catimg/",
+                "fimg": "../../catimg/122.jpg",
                 "imgs":[
                     "../../Fresh pomegranate Offer/logo-01.png",
-                    "../../Fresh pomegranate Offer/logo-02.png"
+                    "../../Fresh pomegranate Offer/logo-02.png",
+                    "../../Fresh pomegranate offer/122.jpg",
+                    "../../Fresh pomegranate offer/pomegranate-2.jpg"
 
                 ]
             },
             {
                 "name": "Mango",
-                "fimg": "../../catimg/",
+                "fimg": "../../catimg/mango (4).jpg",
                 "imgs":[
-                    "../../Mango/mango 1.jpg",
-                    "../../Mango/mango 2.jpg",
-                    "../../Mango/mango 3.jpg",
-                    "../../Mango/mango 4.jpg",
-                    "../../Mango/mango 5-01.png"
+                    "../../Mango/mango (1).jpg",
+                    "../../Mango/mango (2).jpg",
+                    "../../Mango/mango (3).jpg",
+                    "../../Mango/mango (4).jpg",
+                    "../../Mango/mango (5).jpg",
+                     "../../Mango/mango (6).jpg",
+                     "../../Mango/mango (7).jpg",
+                     "../../Mango/mango (8).jpg",
+                     "../../Mango/mango (9).jpg",
+                    "../../Mango/mango (10).jpg"
+
 
 
                 ]
             },
             {
                 "name": "Strawberry",
-                "fimg": "../../catimg/",
+                "fimg": "../../catimg/strawberry5.jpg",
                 "imgs":[
                     "../../Strawberry/strawberry 1.jpg",
                     "../../Strawberry/strawberry 2.jpg",
                     "../../Strawberry/strawberry 3.jpg",
                     "../../Strawberry/strawberry 4.jpg",
                     "../../Strawberry/strawberry 6.jpg",
-                    "../../Strawberry/strawberry5.jpg"
+                    "../../Strawberry/strawberry5.jpg",
+                    "../../Strawberry/strawberry ..jpg"
 
                 ]
             },
@@ -125,12 +144,43 @@
                 "name": "Apple",
                 "fimg": "../../catimg/",
                 "imgs":[
+                    "../../Fresh apples/fresh-apple (1).jpg",
+                     "../../Fresh apples/fresh-apple (2).jpg",
+                     "../../Fresh apples/fresh-apple (3).jpg",
+                     "../../Fresh apples/fresh-apple (4).jpg",
+                     "../../Fresh apples/fresh-apple (5).jpg",
+                     "../../Fresh apples/fresh-apple (6).jpg",
+                     "../../Fresh apples/fresh-apple (7).jpg",
+                     "../../Fresh apples/fresh-apple (8).jpg",
+                     "../../Fresh apples/fresh-apple (9).jpg",
+                     "../../Fresh apples/fresh-apple (10).jpg",
+                     "../../Fresh apples/fresh-apple (11).jpg",
+                     "../../Fresh apples/fresh-apple (12).jpg",
+                     "../../Fresh apples/fresh-apple (13).jpg",
+                     "../../Fresh apples/fresh-apple (14).jpg",
+                     "../../Fresh apples/fresh-apple (15).jpg",
+                     "../../Fresh apples/fresh-apple (16).jpg",
+                     "../../Fresh apples/fresh-apple (17).jpg",
+                     "../../Fresh apples/fresh-apple (18).jpg",
+                     "../../Fresh apples/fresh-apple (19).jpg",
+                     "../../Fresh apples/fresh-apple (20).jpg",
+                     "../../Fresh apples/fresh-apple (21).jpg",
+                     "../../Fresh apples/fresh-apple (22).jpg",
+                     "../../Fresh apples/fresh-apple (23).jpg",
+                     "../../Fresh apples/fresh-apple (24).jpg",
+                     "../../Fresh apples/fresh-apple (25).jpg",
+                     "../../Fresh apples/fresh-apple (26).jpg",
+                     "../../Fresh apples/fresh-apple (27).jpg",
+                     "../../Fresh apples/fresh-apple (28).jpg"
+                    
                 ]
             },
             {
                 "name": "Graps",
-                "fimg": "../../catimg/",
+                "fimg": "../../catimg/graps.jpg",
                 "imgs":[
+                    "../../graps/graps ...jpg",
+                     "../../graps/graps.jpg"
                 ]
             }
 
@@ -143,14 +193,14 @@
                 "name": "Soybeans meal pellets",
                 "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/soybean_meal_beans",
-                    "../../fodders/Soybean_Meal.jpg"
+                    "../../fodders/Soybean_Meal.jpg",
+                    "../../fodders/soybean_meal_beans.jpg"
                                         
                 ]
             },
             {
                 "name": "Sunflower meal pellets",
-                "fimg": "../../catimg/",
+                "fimg": "../../catimg/sunflower meal pellets.jpg",
                 "imgs": [
                     "../../fodders/sunflower meal pellets.jpg"
                 ]
@@ -178,10 +228,10 @@
                 "name": "Corn GLUTEN",
                 "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/Corn-gluten-feed.jpg",
-                    "../../fodders/corn gulten,",
-                    "../../fodders/corn gulten",
-                    "../../fodders/corn gulten."
+                    "../../fodders/corn gulten ..jpg",
+                    "../../fodders/corn gulten,.jpg",
+                    "../../fodders/corn gulten..jpg",
+                    "../../fodders/corn gulten.JPG"
 
                 ]
             },
@@ -204,7 +254,7 @@
                 "name": "Sugar beet pulp pellets",
                 "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/beet pulp pellets.jpg"
+                    "../../fodders/beet pulp pellets ..jpg"
                 ]
             },
             {
@@ -224,7 +274,11 @@
                 "name": "Dry bulk vesel",
                 "fimg": "../../catimg/",
                 "imgs": [
-                    "../../dry bulk vesel/dry bulk ship.jpg"
+                    "../../dry bulk vesel/dry bulk ship.jpg",
+                    "../../dry bulk vesel/picture 1.jpg",
+                     "../../dry bulk vesel/modern wagon   cargo cars.jpg"
+
+
                 ]
             }
         ]
@@ -236,6 +290,8 @@
                 "name": "Coffe Beans",
                 "fimg": "../../catimg/",
                 "imgs":[
+                    "../../coffe beans/coffee beans green.jpg",
+                     "../../coffe beans/coffee beans.jpg"
     
                 ]
             },
@@ -315,6 +371,26 @@
                 "imgs":[
                 ]
             }
+        ]
+    },
+    "Innovation": {
+        "background":  "../../product-bg/innovation-06.png",
+        "categories":[
+            {
+                "name": "Innovation",
+                "fimg": "../../catimg/",
+                "imgs":[
+                  "../../innovation/innovation (1).jpg",
+                 "../../innovation/innovation (2).jpg",
+                  "../../innovation/innovation (3).jpg",
+                  "../../innovation/innovation (4).jpg",
+                  "../../innovation/innovation (5).jpg"
+                    
+                    
+                ]
+            },
+            
+            
         ]
     }
 
