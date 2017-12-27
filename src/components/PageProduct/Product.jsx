@@ -26,9 +26,6 @@ export class Product extends React.Component {
                                 <h1 className="title has-text-white is-size-1 is-uppercase">
                                     {this.props.match.params.name}
                                 </h1>
-                                <h2 className="subtitle has-text-grey-lighter is-size-4">
-                                    Irure excepteur ex enim occaecategory  consectetur fugiat nulla voluptate.Do est ex laboris laborum laboris sit aliquip.
-                                </h2>
                             </div>
                         </div>
                     </section>
