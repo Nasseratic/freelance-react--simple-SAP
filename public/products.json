@@ -223,8 +223,8 @@
                 "name": "Yellow corn mazia and wheat",
                 "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/corn.jpeg",
-                    "../../fodders/corn.jpg"
+                    "../../fodders/corn.jpg",
+                    "../../fodders/yellow mazia corn..jpg"
                 ]
             },
             {
@@ -264,8 +264,8 @@
                 "name": "Wheat Bran",
                 "fimg": "../../catimg/",
                 "imgs": [
-                    "../../fodders/wheat.jpg"
-                    
+                    "../../fodders/wheat bran.jpg",
+                    "../../fodders/wheat bran 1.jpg"
                 ]
             }
         ]

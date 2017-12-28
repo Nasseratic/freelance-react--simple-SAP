@@ -26,7 +26,7 @@ export class Footer extends React.Component {
                 <a className="footerLink" href="/#contact">
                     Contact Us
                 </a>
-                <a className="footerLink">
+                <a className="footerLink" href="/links">
                 Useful link and education
                 </a>
               </div>

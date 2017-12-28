@@ -89,9 +89,7 @@ The fully automated plant (from brine purification to the removal from high rack
       <br/>
       <br/>
       </h3>
-                        <h3 className="is-size-5 has-text-centered has-text-weight-bold" style={{ letterSpacing: '5px' }}>
-                            Some thing Important .......
-                        </h3>
+                        
                         <br />
                         <h4>Business model</h4>
                         <div className="columns">

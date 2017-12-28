@@ -47,8 +47,8 @@ export class Extchange extends React.Component {
                             width: 35,
                             height: 20,
                             display: 'inline'
-                        }} alt="" />
-                        <span className="car"> EUR/USD</span>
+                        }} alt="" />&nbsp;
+                        <span className="car"> EUR/USD</span> &nbsp;
                         {this.state.EUR_USD}
                         
                     </span>
