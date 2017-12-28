@@ -1208,8 +1208,8 @@ contents['Citrus'] = (
 
 contents['De-Ice Salt'] = (
     <body>
-        <video width="320" height="340"  style={{float:'right'}}>
-  <source src="../../salt.mp4" type="video/mp4"/>
+        <video width="320" height="340"  style={{float:'right'}} controls controlsList="nodownload noremote foobar">
+  <source src="../../salt.mp4"  type="video/mp4"/>
 </video>
         <p> We able to produce and supply over 2 million ton per years , we able enter any tender for salt around the globe , we looking for reduce invoice  of cleaning roads from the snow by supply super quality salt making roads very safe , with best prices on time without any delay .
     De-icing Salt (Sodium chloride) is the most widely used de-icing agent in Europe , canada and usa and throughout the world due to its huge advantages over the alternatives.</p>
