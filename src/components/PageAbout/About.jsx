@@ -93,6 +93,7 @@ The fully automated plant (from brine purification to the removal from high rack
                             Some thing Important .......
                         </h3>
                         <br />
+                        <h4>Business model</h4>
                         <div className="columns">
                             <div className="column is-half is-offset-one-quarter">
                                 <img src={img1} />

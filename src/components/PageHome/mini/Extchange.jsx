@@ -48,8 +48,9 @@ export class Extchange extends React.Component {
                             height: 20,
                             display: 'inline'
                         }} alt="" />
-                        {this.state.EUR_USD}
                         <span className="car"> EUR/USD</span>
+                        {this.state.EUR_USD}
+                        
                     </span>
                 </div>
                 {/* <div className="c-card column is-3 has-text-centered"> 
