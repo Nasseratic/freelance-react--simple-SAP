@@ -18,3 +18,8 @@
     width: 100%;
     padding-left: 10px;
 }
+@media screen and (max-width: 1200px){
+    .footerLink{
+        display: block;
+    }
+}

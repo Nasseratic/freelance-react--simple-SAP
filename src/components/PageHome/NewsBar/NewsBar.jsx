@@ -20,16 +20,29 @@ export class NewsBar extends React.Component {
             // storageBucket: "<BUCKET>.appspot.com",
             // messagingSenderId: "<SENDER_ID>",
         };
-        firebase.initializeApp(config);
-        var database = firebase.database();
-        firebase.database().ref('news').once('value').then((res) => {
-            this.state.text = res.val();
-        });
+            try {
+                firebase.initializeApp(config)
+            } catch (err) {
+                // we skip the "already exists" message which is
+                // not an actual error when we're hot-reloading
+                if (!/already exists/.test(err.message)) {
+                console.error('Firebase initialization error', err.stack)
+                }
+            }
+            
+            var database = firebase.database();
+            firebase.database().ref('news').once('value').then((res) => {
+                this.state.text = res.val();
+            });
+
+       
         setInterval(() => {
-            if (this.state.s <= 0 - this.s.offsetWidth + 1) {
-                this.setState({ s: this.w.offsetWidth - 1 });
-            } else {
-                this.setState({ s: this.state.s - 2 });
+            if(this.s){
+                if (this.state.s <= 0 - this.s.offsetWidth + 1) {
+                    this.setState({ s: this.w.offsetWidth - 1 });
+                } else {
+                    this.setState({ s: this.state.s - 2 });
+                }
             }
         }, 40);
     }

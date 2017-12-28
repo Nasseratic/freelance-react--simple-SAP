@@ -117,7 +117,7 @@ function Category(params) {
 // }
 
 function Gallery(params) {
-    if (params.len < 2) {
+    if (params.len < 1) {
         return (<h1 className="has-text-black has-text-centered"> NO Galary </h1>);
     } else {
         let arrToRender = [];
@@ -150,11 +150,12 @@ function ProductContent(params) {
         return (
         <div> 
             {nameTag} <br />  
-            <img src={params.fimg} style={{ maxHeight: 300, float: 'right' }} />
-            {contents[params.name]} 
+            <img src={params.fimg} onError={ (ev)=> ev.target.src = 'http://bumanmedia.com/assets/empty-list-img-da718555288a0d1fcfd5f0b73c5109b0211ee330526fe233849dd2e19a2c0073.png'} style={{ maxHeight: 300, float: 'right' }} />
+            {contents[params.name]}
+            <h2> <strong>CONTACT US FOR MORE DETAILS AND BEST OFFER</strong> </h2>
         </div>
 
-        )
+        );
 
 }
 
@@ -271,7 +272,6 @@ contents['Sugar'] = (
 
 
             We offer best quality of European origin sugar in bags 50k.g , or jumbo bags
-<h4>Contact us for more details and best offer for you.</h4>
         </p>
 
     </body>
@@ -280,7 +280,7 @@ contents['Sugar'] = (
 
 contents['Wood'] = (
     <body>
-
+        <h2> <strong> We offering following kinds of wood : </strong> </h2>
         <h2 className=" has-bg-blue is-size-4">1:-Logs wood </h2>
 
 
@@ -590,8 +590,7 @@ contents['Wheat Bran'] = (
         <li> Bulk-Loose in PP Lined Container.</li>
 
         <li> Minimum quantity of sales: 120 tons in 5x40'fcl. </li>
-        We offer high purity wheat , originally euro , moisture less than 13% , non GMO
-        <strong><h3>Contact us for more details and best offer .</h3></strong> 
+  
 
 </body>
 );
@@ -693,10 +692,6 @@ contents['Yellow corn mazia and wheat'] = (
                     <td>NON</td>
                 </tr>
                 <tr>
-                    <td>Aflatoxins (including B1, B2, G1, G2)</td>
-                    <td> ≤ 20.0%</td>
-                </tr>
-                <tr>
                     <td>Grain Impurities, %</td>
                     <td> ≤ 6.0%</td>
                 </tr>
@@ -727,9 +722,16 @@ contents['Yellow corn mazia and wheat'] = (
         <li>•	Advance payment; </li>
         <li> •	Irrevocable Letter of Credit at sight issued by a Top World Bank and available with Seller's bank only if order is 1000 MT min and only</li>
 
-
-
+        <h2 className=" has-bg-blue is-size-4"> Wheat </h2>
+        We offer high purity wheat , originally euro , moisture less than 13% , non GMO
     </body>
+);
+
+contents['Alfalfa hay'] =(
+    <div>
+        We offer high quality European alfalfa hay , moisture less than 13 % and protein percent min 18% , with
+best offer .
+    </div>
 );
 
 
@@ -956,12 +958,14 @@ contents['Strawberry'] = (
         <h2 className=" has-bg-blue is-size-4">Varities: </h2>
 
         <p>
-            All varieties are available
+            All varieties are available:
+            festival – Florida- Camaroza
 </p>
 
         <h2 className=" has-bg-blue is-size-4">Packing:</h2>
         <p>
-            0.5Kg  punnets
+        2kg/ 8 punnets<br/>
+        2kg/ 8 punnets
 </p>
 
 
@@ -1217,6 +1221,8 @@ contents['De-Ice Salt'] = (
         <h2 className=" has-bg-blue is-size-4"> 1:- Raw Rock crystal salt De-ice salt </h2>
         <p>
             analysis as following , NacL OVER 98.59% ( purity) , Moisture 0.42 % and Water Insoluble 0.46 %  , </p>
+        <br/>
+        SGS analysis of our rock crystal salt as following:
         <table className="table is-bordered">
             <tbody>
                 <tr>
@@ -1280,7 +1286,7 @@ contents['De-Ice Salt'] = (
         <li>   Delivery terms: EXW , FOB , CIF OR EVEN DDP to the warehouse of our client , incoterms 2010</li>
 
         <li>  Packing options bags 50k.g , or bags 25 k.g or jumbo bags 1 ton or 1.5 ton in bags min order 200 ton </li>
-
+        <br/>
     </body>
 );
 
@@ -1335,7 +1341,7 @@ contents['Industrial Salt'] = (
         <li> Calcium: 0.040-0.13 % </li>
         <li> Magnesium: 0.034-0.12% </li>
 
-
+<br/>
     </body>
 );
 
@@ -1426,6 +1432,7 @@ and much more quality certifications , quality is first.
         <li> •	Water soluble impurities     0.08% </li>
         <li> •	Moisture                           0.2 % </li>
         <li> •	we also making salt for meat industrial in bags 25 k.g </li>
+<br/>
 
     </body>
 );

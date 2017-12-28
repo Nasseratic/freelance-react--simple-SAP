@@ -10,7 +10,7 @@ export class Footer extends React.Component {
         <footer className="footer">
           <div className="container">
             <div className="columns is-mobile">
-              <div className="column is-one-thirds-fullhd">
+              <div className="column is-one-fourth-fullhd">
                <a href="/"> <img src={logo} alt="logo" style={ { minWidth: '70px' , maxHeight: '60px' } } /> </a>
               </div>
               <div className="column has-text-weight-light">
@@ -27,7 +27,7 @@ export class Footer extends React.Component {
                     Contact Us
                 </a>
                 <a className="footerLink">
-                Useful links
+                Useful link and education
                 </a>
               </div>
             </div>

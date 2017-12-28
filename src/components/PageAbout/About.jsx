@@ -102,6 +102,7 @@ The fully automated plant (from brine purification to the removal from high rack
                 </section>
                 <section className="section">
                     <div className="container">
+                        <h4>Something important when you put the business plan is SWOT analysis this show where you are in the market .</h4>
                         <div className="columns">
                             <div className="column is-half is-offset-one-quarter">
                                 <img src={img2} />
