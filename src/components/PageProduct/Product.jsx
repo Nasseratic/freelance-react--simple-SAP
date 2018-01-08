@@ -1208,7 +1208,7 @@ contents['Citrus'] = (
 
 contents['De-Ice Salt'] = (
     <body>
-        <video width="320" height="340"  style={{float:'right'}} controls controlsList="nodownload noremote foobar">
+        <video width="55%" height="340" controls controlsList="nodownload noremote foobar">
   <source src="../../salt.mp4"  type="video/mp4"/>
 </video>
         <p> We able to produce and supply over 2 million ton per years , we able enter any tender for salt around the globe , we looking for reduce invoice  of cleaning roads from the snow by supply super quality salt making roads very safe , with best prices on time without any delay .
@@ -1271,14 +1271,17 @@ contents['De-Ice Salt'] = (
                 </tr>
             </tbody>
         </table>
-
-        <h2 className=" has-bg-blue is-size-4">  2:- raw sea salt for de-ice </h2>
-        <p><lu> We able to supply high quality sea salt too for de-ice  Nacl min 97.5% and moisture from 1-4 % max</lu>
+        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
+                <img src="../../De-ice/De-ice (12).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
+                <h2 className=" has-bg-blue is-size-4">  2:- raw sea salt for de-ice </h2>
+            <p><lu> We able to supply high quality sea salt too for de-ice  Nacl min 97.5% and moisture from 1-4 % max</lu>
 
             <li> -	Sorting , crush high level and sizing according to client want ( 0-4 &1-5 &2-10 &1-12) mm or any size we do it and we can supply it raw without crushing according to your request.</li>
             <li>  -	Anti caking agent as client request 50 ppm or any percent client want and the kind the client want for anti caking.</li>
             <li>  -	We give SGS certification , by analysis and quantity load on the vessel , and can check vessel banker too before loading to arrive salt in quality vessel too .</li> </p>
 
+        </div>
+        
         <h2 className=" has-bg-blue is-size-4"> <lu> Condition of sales </lu> </h2>
         <li>  Minimum Order Quantity: 3000 metric  tons </li>
         <li> Shipment: in bulk</li>
