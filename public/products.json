@@ -6,16 +6,14 @@
                 "name": "De-Ice Salt",
                 "fimg": "../../catimg/remove.jpg",
                 "imgs":[
-                    
+
                     "../../De-ice/rock-salt-2 (3).jpg",
                     "../../De-ice/rock-salt-2 (6).jpg",
                     "../../De-ice/rock-salt-2 (4).jpg",
                     "../../De-ice/rock-salt-2 (2).jpg",
                     "../../De-ice/rock-salt-2 (5).jpg",
                     "../../De-ice/rock-salt-2 (1).jpg",
-                    "../../De-ice/De-ice (1).jpg",
                     "../../De-ice/De-ice (2).jpg",
-                    "../../De-ice/De-ice (3).jpg",
                     "../../De-ice/De-ice (4).jpg",
                     "../../De-ice/De-ice (1).jpg",
                     "../../De-ice/De-ice (5).jpg",
@@ -47,7 +45,7 @@
                     "../../industrial salt/industrial salt(2).png",
                     "../../industrial salt/industrial salt(3).png",
                     "../../industrial salt/industrial salt(4).png"
-                ]                
+                ]
             }
             ,{
                 "name": "Edible Salt",
@@ -57,7 +55,7 @@
                     "../../edible salt/edible salt (2).png"
                 ]
             }
-            
+
         ]
     },
     "Fruits and vegitables": {
@@ -175,7 +173,7 @@
                      "../../Fresh apples/fresh-apple (26).jpg",
                      "../../Fresh apples/fresh-apple (27).jpg",
                      "../../Fresh apples/fresh-apple (28).jpg"
-                    
+
                 ]
             },
             {
@@ -198,7 +196,7 @@
                 "imgs": [
                     "../../fodders/Soybean_Meal.jpg",
                     "../../fodders/soybean_meal_beans.jpg"
-                                        
+
                 ]
             },
             {
@@ -216,7 +214,7 @@
                     "../../corn sillage/corn sillage 2.jpg",
                     "../../corn sillage/corn-silage 2.jpg",
                     "../../corn sillage/corn sillage.jpg"
-                    
+
                 ]
             },
             {
@@ -295,7 +293,7 @@
                 "imgs":[
                     "../../coffee beans/coffee beans green.jpg",
                      "../../coffee beans/coffee beans.jpg"
-    
+
                 ]
             },
             {
@@ -330,7 +328,7 @@
                 "fimg": "../../catimg/",
                 "imgs":[
                     "../../wood/wood (9).jpg",
-                  "../../wood/wood (8).jpg",                    
+                  "../../wood/wood (8).jpg",
                   "../../wood/wood (10).jpg",
                   "../../wood/wood (1).jpg",
                   "../../wood/wood (2).jpg",
@@ -385,10 +383,10 @@
                   "../../innovation/innovation (3).jpg",
                   "../../innovation/innovation (4).jpg",
                   "../../innovation/innovation (5).jpg"
-                    
+
                 ]
             }
-            
+
         ]
     }
 

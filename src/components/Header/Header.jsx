@@ -4,12 +4,12 @@ import logo from './logo.png';
 import { Link  } from 'react-router-dom';
 
 export class Header extends React.Component {
-    
+
     constructor(props){
         super(props);
         this.state = { toggleNav : false };
         this.handleToggleClick = this.handleToggleClick.bind(this);
-        
+
     }
     handleToggleClick() {
         this.setState(prevState => ({
@@ -18,7 +18,7 @@ export class Header extends React.Component {
       }
     render() {
         return (
-        
+
             <nav className="navbar" >
             <div className="container">
             <div className="navbar-brand">
@@ -31,9 +31,9 @@ export class Header extends React.Component {
                 <span></span>
               </div>
             </div>
-          
+
             <div id="navbarExampleTransparentExample" className={ this.state.toggleNav ? 'navbar-menu is-active' : 'navbar-menu' } >
-              
+
               <div className="navbar-end">
                 <Link className="navbar-item"to="/">
                     Home
@@ -54,7 +54,7 @@ export class Header extends React.Component {
             </div>
             </div>
           </nav>
-        
+
         );
     }
 }
