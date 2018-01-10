@@ -9,6 +9,7 @@ export class Header extends React.Component {
         super(props);
         this.state = { toggleNav : false };
         this.handleToggleClick = this.handleToggleClick.bind(this);
+        this.handleClose = this.handleClose.bind(this);
 
     }
     handleToggleClick() {
@@ -16,9 +17,16 @@ export class Header extends React.Component {
             toggleNav: !prevState.toggleNav
         }));
       }
+      handleClose() {
+        this.setState(prevState => ({
+            toggleNav: false
+        }));
+      }
     render() {
         return (
-
+            <div>
+            <div style={{height: '100%',width:'100%',opacity:0,position:'fixed', zIndex:9998}} hidden={!this.state.toggleNav} onClick={this.handleClose}>
+            </div>
             <nav className="navbar" >
             <div className="container">
             <div className="navbar-brand">
@@ -34,7 +42,7 @@ export class Header extends React.Component {
 
             <div id="navbarExampleTransparentExample" className={ this.state.toggleNav ? 'navbar-menu is-active' : 'navbar-menu' } >
 
-              <div className="navbar-end">
+              <div className="navbar-end" onClick={this.handleClose}>
                 <Link className="navbar-item"to="/">
                     Home
                 </Link>
@@ -54,7 +62,7 @@ export class Header extends React.Component {
             </div>
             </div>
           </nav>
-
+          </div>
         );
     }
 }

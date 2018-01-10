@@ -46,7 +46,7 @@ export class Home extends React.Component {
                     <Extchange />
                     <NewsBar />
                     <div className="card">
-                    <Carousel autoplay={true} autoplayInterval={5000} wrapAround={true}>
+                    <Carousel autoplay={true} autoplayInterval={4000} wrapAround={true}>
                     {ImgSec('../../slider/slide-1.png', 'Hashem for import and export')}
                     {ImgSec('../../slider/slide-2.png', 'In Cooperation With Our Business Partners, We Strive Towards Mutual Benefit As The Basic Of Long-Term Relations.')}
                     {ImgSec('../../slider/slide-3.png', 'Continuous Grow The Plays An Important Role In Developing And Safe Guarding The Company For The Long Term.')}
