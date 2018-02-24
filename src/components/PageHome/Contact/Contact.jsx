@@ -13,24 +13,24 @@ export class Contact extends React.Component {
           <div className="columns">
             <div className="column">
               <div className="field">
-                <label className="label">First name*</label>
+                <label className="label">PHONE</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="" />
+                  <input className="input is-size-5" value="010000000" type="text" placeholder="" />
                 </div>
               </div>
               <div className="field">
-                <label className="label">Last name*</label>
+                <label className="label">EMAIL</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="" />
+                  <input className="input is-size-5" value="info@hessham.com" type="text" placeholder="" />
                 </div>
               </div>
               <div className="field">
-                <label className="label">Email*</label>
+                <label className="label">ADDRESS</label>
                 <div className="control">
-                  <input className="input" type="email" placeholder="" />
+                  <input className="input is-size-5" value="Address" type="email" placeholder="" />
                 </div>
               </div>
-              <div className="field">
+              {/* <div className="field">
                 <label className="label">Phone*</label>
                 <div className="control">
                   <input className="input" type="phone" placeholder="" />
@@ -90,11 +90,14 @@ export class Contact extends React.Component {
                 <div className="control">
                   <textarea className="textarea" placeholder=""></textarea>
                 </div>
-              </div>
-              <a className="button submitButton is-medium">SUBMIT <i className="fa fa-send"></i> </a>
+              </div> */}
+              {/* <a className="button submitButton is-medium">SUBMIT <i className="fa fa-send"></i> </a> */}
+            </div>
+            <div className="column card" style={{ background:"url('http://alqatbiglobal.com/wp-content/uploads/2018/01/contact.jpg')", backgroundSize: 'cover' }}>
+              
             </div>
           </div>
-
+          
           {/* <div className="columns">
             <div className="column">
 

@@ -28,25 +28,25 @@ export class Clocks extends React.Component {
         <div className="level-item has-text-centered">
             <div>
             <p className="heading has-text-white">New York</p>
-            <p className="title has-text-white has-text-weight-light">{this.state.New_York}</p>
+            <p className="has-text-white has-text-weight-light">{this.state.New_York}</p>
             </div>
         </div>
         <div className="level-item has-text-centered">
             <div>
             <p className="heading has-text-white ">LONDON </p>
-            <p className="title has-text-white has-text-weight-light">{this.state.London}</p>
+            <p className="has-text-white has-text-weight-light">{this.state.London}</p>
             </div>
         </div>
         <div className="level-item has-text-centered">
             <div>
             <p className="heading has-text-white ">HONGKONG</p>
-            <p className="title has-text-white has-text-weight-light">{this.state.Hongkong}</p>
+            <p className="has-text-white has-text-weight-light">{this.state.Hongkong}</p>
             </div>
         </div>
         <div className="level-item has-text-centered">
             <div>
             <p className="heading has-text-white ">CET</p>
-            <p className="title has-text-white has-text-weight-light ">{this.state.CET}</p>
+            <p className="has-text-white has-text-weight-light ">{this.state.CET}</p>
             </div>
         </div>
     </nav>

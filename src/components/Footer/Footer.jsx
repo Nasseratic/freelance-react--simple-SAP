@@ -33,7 +33,7 @@ export class Footer extends React.Component {
             </div>
           </div>
         </footer>
-        {/* <div className="powerd-by"> POWERD BY <a href="https://lamaatech.com">LAMAATECH</a></div> */}
+        <div className="powerd-by is-size-5"> © <a>2014-2018 HESHAM </a> ALL RIGHTS RESERVED</div>
       </div>
     );
   }

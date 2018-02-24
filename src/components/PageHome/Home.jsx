@@ -39,25 +39,29 @@ export class Home extends React.Component {
         return (
             <div>
                 <section className="hero hero-home is-fullheight  is-bold" id="home">
-                    <br />
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     <Clocks />
                     <Extchange />
                     <NewsBar />
-                    <div className="card">
-                    <Carousel autoplay={true} autoplayInterval={4000} wrapAround={true}>
+                    <br/>
+                    
+                    <section id="section04" class="demo">
+                        <a href="#section05"><span></span>Scroll</a>
+                    </section>
+  
+                </section>
+                <div className="card">
+                    <Carousel autoplay={true} autoplayInterval={5000} wrapAround={true}>
                     {ImgSec('../../slider/slide-1.png', 'Hashem for import and export')}
                     {ImgSec('../../slider/slide-2.png', 'In Cooperation With Our Business Partners, We Strive Towards Mutual Benefit As The Basic Of Long-Term Relations.')}
                     {ImgSec('../../slider/slide-3.png', 'Continuous Grow The Plays An Important Role In Developing And Safe Guarding The Company For The Long Term.')}
                     {ImgSec('../../slider/slide-4.png', 'We Promote The Further Training Of Our Staff To Enhance Their Performance.')}
                     {ImgSec('../../slider/slide-5.png', 'We Welcome Constructive Suggestions As An Incentive For Improvement.')}
                     {ImgSec('../../slider/slide-6.png', 'We Actively Work To Meet Increasing Customers Requirements And Shape Market Changes.')}
-                    {ImgSec('../../slider/slide-7.png', 'In Cooperation With Our Business Partners, We Strive Towards Mutual Benefit As The Basic Of Long-Term Relations.')}
+                    {ImgSec('../../slider/slide-7.png', 'We are Reliable partners in performance Flexibility and service - orientation ')}
                     </Carousel>
                     </div>
-                </section>
-
 
                 <About />
                 <Products />

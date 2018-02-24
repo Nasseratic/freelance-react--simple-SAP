@@ -123,7 +123,7 @@ function Gallery(params) {
         let arrToRender = [];
         params.imgs.forEach(element => {
             console.log(element);
-            arrToRender.push(<div className="card column is-one-third" > <div className="is-bg-center-cover" style={{ backgroundImage: "url('" + element + "')", height: '200px' }}> </div> </div>);
+            arrToRender.push(<div className="card column is-one-third" > <div className="is-bg-center-cover" style={{ backgroundImage: "url('" + element + "')", height: '100%' }}> </div> </div>);
         });
         return (
             <div>
