@@ -31,7 +31,7 @@ export class Header extends React.Component {
             <div className="container">
             <div className="navbar-brand">
               <a className="navbar-item" href="/">
-                <img src={logo} alt="Bulma: a modern CSS framework based on Flexbox" style={ { minWidth: '90px' ,minHeight: '50px' } } />
+                <img src={logo} alt="Bulma: a modern CSS framework based on Flexbox" style={ { minWidth: '100px' ,minHeight: '70px' } } />
               </a>
               <div className="navbar-burger burger" onClick={this.handleToggleClick} >
                 <span></span>

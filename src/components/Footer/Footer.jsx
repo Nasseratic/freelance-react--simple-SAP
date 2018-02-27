@@ -11,7 +11,7 @@ export class Footer extends React.Component {
           <div className="container">
             <div className="columns is-mobile">
               <div className="column is-one-fourth-fullhd">
-               <a href="/"> <img src={logo} alt="logo" style={ { minWidth: '70px' , maxHeight: '60px' } } /> </a>
+               <a href="/"> <img src={logo} alt="logo" style={ { minWidth: '95px' , maxHeight: '85px' } } /> </a>
               </div>
               <div className="column has-text-weight-light">
                 <a className="footerLink" href="/">
@@ -27,13 +27,14 @@ export class Footer extends React.Component {
                     Contact Us
                 </a>
                 <a className="footerLink" href="/links">
-                Useful link and education
+                    Useful link and education
                 </a>
               </div>
             </div>
           </div>
+          <hr/>
+          <div className=" is-size-5 has-text-white has-text-centered"> © <span className="has-text-weight-bold">2014-2018 Hashem D.O.O </span> ALL RIGHTS RESERVED</div>
         </footer>
-        <div className="powerd-by is-size-5"> © <a>2014-2018 HESHAM </a> ALL RIGHTS RESERVED</div>
       </div>
     );
   }

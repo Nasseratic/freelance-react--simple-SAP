@@ -93,7 +93,7 @@ The fully automated plant (from brine purification to the removal from high rack
                         <br />
                         <h4>Business model</h4>
                         <div className="columns">
-                            <div className="column is-half is-offset-one-quarter">
+                            <div className="card column is-half is-offset-one-quarter">
                                 <img src={img1} />
                             </div>
                         </div>
@@ -101,9 +101,9 @@ The fully automated plant (from brine purification to the removal from high rack
                 </section>
                 <section className="section">
                     <div className="container">
-                        <h4>Something important when you put the business plan is SWOT analysis this show where you are in the market .</h4>
+                        <h4 style={{fontSize:'1.5em', textAlign:'center'}} >Something important when you put the business plan is SWOT analysis this show where you are in the market .</h4>
                         <div className="columns">
-                            <div className="column is-half is-offset-one-quarter">
+                            <div className=" card column is-half is-offset-one-quarter">
                                 <img src={img2} />
                             </div>
                         </div>
@@ -116,7 +116,7 @@ The fully automated plant (from brine purification to the removal from high rack
                         </h3>
                         <br />
                         <div className="columns">
-                            <div className="column is-8 is-offset-2" >
+                            <div className=" card column is-8 is-offset-2" >
                                 <img src={img3} />
                             </div>
                         </div>
@@ -125,7 +125,7 @@ The fully automated plant (from brine purification to the removal from high rack
                 <section className="section">
                     <div className="container">
                         <div className="columns">
-                            <div className="column is-8 is-offset-2" >
+                            <div className=" card column is-8 is-offset-2" >
                                 <img src={img4} />
                             </div>
                         </div>
@@ -134,7 +134,7 @@ The fully automated plant (from brine purification to the removal from high rack
                 <section className="section">
                     <div className="container">
                         <div className="columns">
-                            <div className="column is-8 is-offset-2">
+                            <div className=" card column is-8 is-offset-2">
                                 <img src={img5} />
                             </div>
                         </div>

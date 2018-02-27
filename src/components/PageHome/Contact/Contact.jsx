@@ -15,19 +15,26 @@ export class Contact extends React.Component {
               <div className="field">
                 <label className="label">PHONE</label>
                 <div className="control">
-                  <input className="input is-size-5" value="010000000" type="text" placeholder="" />
+                  <input className="input is-size-5" value="+20010000000" type="text" placeholder="" />
+                </div>
+              </div>
+              <div className="field">
+                <label className="label">FAX</label>
+                <div className="control">
+                  <input className="input is-size-5" value="+2051477855" type="text" />
                 </div>
               </div>
               <div className="field">
                 <label className="label">EMAIL</label>
                 <div className="control">
-                  <input className="input is-size-5" value="info@hessham.com" type="text" placeholder="" />
+                  <input className="input is-size-5" value="info@hessham.com" type="email" placeholder="" />
                 </div>
               </div>
+              
               <div className="field">
                 <label className="label">ADDRESS</label>
                 <div className="control">
-                  <input className="input is-size-5" value="Address" type="email" placeholder="" />
+                  <input className="input is-size-5" value="Address" type="text" placeholder="" />
                 </div>
               </div>
               {/* <div className="field">
