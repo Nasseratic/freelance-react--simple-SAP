@@ -33,7 +33,7 @@ export class Footer extends React.Component {
             </div>
           </div>
           <hr/>
-          <div className=" is-size-5 has-text-white has-text-centered"> © <span className="has-text-weight-bold">2014-2018 Hashem D.O.O </span> ALL RIGHTS RESERVED</div>
+          <div className=" is-size-6 has-text-white has-text-centered"> © <span className="has-text-weight-bold">2014-2018 Hashem D.O.O </span> ALL RIGHTS RESERVED</div>
         </footer>
       </div>
     );

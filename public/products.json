@@ -2,7 +2,9 @@
     "SALT": {
         "background": "../../product-bg/salt-01.png",
         "categories":[
+            
             {
+                
                 "name": "De-Ice Salt",
                 "fimg": "../../catimg/remove.jpg",
                 "imgs":[
@@ -54,6 +56,12 @@
                     "../../edible salt/edible salt (1).png",
                     "../../edible salt/edible salt (2).png"
                 ]
+            },{
+                "name":"Draw of salt work",
+                "fimg":"",
+                "imgs":[]
+                
+
             }
 
         ]
@@ -94,7 +102,9 @@
                     "../../GARLIC AND ONION/garlic and onion-04.png",
                     "../../GARLIC AND ONION/garlic and onion-05.png",
                     "../../GARLIC AND ONION/garlic and onion-06.png",
-                    "../../GARLIC AND ONION/garlic and onion-07.png"
+                    "../../GARLIC AND ONION/garlic and onion-07.png",
+                    "../../GARLIC AND ONION/garlic1.jpg",
+                    "../../GARLIC AND ONION/garlic 2.jpg"
                 ]
             },
             {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Product.css';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export class Product extends React.Component {
 
@@ -66,7 +66,7 @@ export class Product extends React.Component {
 function CategoryNav(params) {
     let navs = params.navs.map((e, index) => {
         return (<div className="column is-4">
-           <Link to={'./' + index} className={index == params.index ? 'button is-outlined full is-uppercase is-medium is-size-6 is-darkblue-active' : 'button is-outlined full is-uppercase is-medium is-size-6 is-darkblue'}> {e.name} </Link>
+            <Link to={'./' + index} className={index == params.index ? 'button is-outlined full is-uppercase is-medium is-size-6 is-darkblue-active' : 'button is-outlined full is-uppercase is-medium is-size-6 is-darkblue'}> {e.name} </Link>
         </div>)
     });
     return (
@@ -86,7 +86,7 @@ function Category(params) {
             <div>
                 <section className="section">
                     <div className="container">
-                        <ProductContent name={category.name} fimg={category.fimg}/>
+                        <ProductContent name={category.name} fimg={category.fimg} />
                     </div>
                 </section>
                 <section className="section">
@@ -146,61 +146,61 @@ function ProductContent(params) {
     let nameTag = <h1 className="has-text-dark is-size-3">{params.name}</h1>;
     let contentTag = '';
 
-      if(params.name == 'Soybeans meal pellets'){
+    if (params.name == 'Soybeans meal pellets') {
         return (
-        <div>
-            {contents[params.name]}
-            <h2> <strong>CONTACT US FOR MORE DETAILS AND BEST OFFER</strong> </h2>
-        </div>
+            <div>
+                {contents[params.name]}
+                <h2> <strong>CONTACT US FOR MORE DETAILS AND BEST OFFER</strong> </h2>
+            </div>
 
         );
 
-      }else{
+    } else {
         return (
-        <div>
-            {nameTag} <br />
-            {contents[params.name]}
-            <h2> <strong>CONTACT US FOR MORE DETAILS AND BEST OFFER</strong> </h2>
-        </div>
+            <div>
+                {nameTag} <br />
+                {contents[params.name]}
+                <h2> <strong>CONTACT US FOR MORE DETAILS AND BEST OFFER</strong> </h2>
+            </div>
 
         );
 
-      }
+    }
 
 }
 
 let contents = {};
 
-contents['Innovation']=(
+contents['Innovation'] = (
     <body>
 
-    <h2 className=" has-bg-blue is-size-4">Innovation idea project</h2>
+        <h2 className=" has-bg-blue is-size-4">Innovation idea project</h2>
 
-         <ul>
-             <li> 1: solar energy </li>
+        <ul>
+            <li> 1: solar energy </li>
 
-             <li>2:- wind energy</li>
+            <li>2:- wind energy</li>
 
-             <li>3:- waves energy</li>
+            <li>3:- waves energy</li>
 
-         </ul>
+        </ul>
 
-         <p>
-             Sea waves energy going to be huge important industrial development this innovation is happening in many countries around the globe , money starting focus in this area , it is not source of energy , it is source of income , long term economic developments, give long time supply of electricity ,
-             <br/>
+        <p>
+            Sea waves energy going to be huge important industrial development this innovation is happening in many countries around the globe , money starting focus in this area , it is not source of energy , it is source of income , long term economic developments, give long time supply of electricity ,
+             <br />
 
-   When you talk about about fuel poverty, when you talk about low cost, go for exactable supply cheapest way for supply electricity.
+            When you talk about about fuel poverty, when you talk about low cost, go for exactable supply cheapest way for supply electricity.
 
-             <br/>
+             <br />
 
-   World going to be green , and with renew energy source , clean source from natural , making clean environment , for reduce high temperatures of earth now, we try to help too .
-             <br/>
+            World going to be green , and with renew energy source , clean source from natural , making clean environment , for reduce high temperatures of earth now, we try to help too .
+             <br />
 
-   Contact us for business corporations
+            Contact us for business corporations
    best offer supply you electricity by our business partners in this in euro and Japan.
          </p>
 
-     </body>
+    </body>
 );
 contents['Cement'] = (
     <body>
@@ -238,43 +238,43 @@ contents['Cement'] = (
         <h3 className="has-text-dark is-size-5">Uses</h3>
         <pre>
             For non-constructive  purposes
-            <br/>
-      For plastering as well as for finishing purposes
-            <br/>
-      For manufacturing of cement bricks.
-            <br/>
-      For manufacturing of cement tiles
+            <br />
+            For plastering as well as for finishing purposes
+            <br />
+            For manufacturing of cement bricks.
+            <br />
+            For manufacturing of cement tiles
 
       </pre>
 
         <br />
         <p>
             Cement is available for export in any of the following forms according to client's desire:
-            <br/>
+            <br />
 
-1. Bags weighing 50 kg each (±1kg)
-            <br/>
+            1. Bags weighing 50 kg each (±1kg)
+            <br />
 
-2. Bulk Cement
-            <br/>
+            2. Bulk Cement
+            <br />
 
-Producers of cement  with following certification
+            Producers of cement  with following certification
 ISO 2008 . 9001
-            <br/>
-ISO 2004 . 140001
-            <br/>
- 	 Certificate (CE – MAEK)
-            <br/>
- O.P.C 42.5R
-            <br/>
- O.P.C 42.5N
-            <br/>
- O.P.C 32.5r
-            <br/>
-2:- we offer GYPSUM FOR CONSTRUCTION
+            <br />
+            ISO 2004 . 140001
+            <br />
+            Certificate (CE – MAEK)
+            <br />
+            O.P.C 42.5R
+            <br />
+            O.P.C 42.5N
+            <br />
+            O.P.C 32.5r
+            <br />
+            2:- we offer GYPSUM FOR CONSTRUCTION
 TECHNICAL SPECIFICATIONS
-            <br/>
-            <br/>contact us for analysis and back details
+            <br />
+            <br />contact us for analysis and back details
 </p>
 
 
@@ -307,53 +307,53 @@ contents['Sugar'] = (
 
 contents['Wood'] = (
     <body>
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../wood/wood (9).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2> <strong> We offering following kinds of wood : </strong> </h2>
-        <h2 className=" has-bg-blue is-size-4">1:-Logs wood </h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../wood/wood (9).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2> <strong> We offering following kinds of wood : </strong> </h2>
+            <h2 className=" has-bg-blue is-size-4">1:-Logs wood </h2>
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../wood/wood (12).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> 2:-Timber for constraction wood art  </h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../wood/wood (12).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> 2:-Timber for constraction wood art  </h2>
 
-        <ul>
-            <li> Spruce fresh cutting Anti stain made in euro see in attached Pictures</li>
+            <ul>
+                <li> Spruce fresh cutting Anti stain made in euro see in attached Pictures</li>
 
-            <li>We delivery 800 cbm only Bulk </li>
+                <li>We delivery 800 cbm only Bulk </li>
 
-            <li>Quality l-ll-lll or  mixed.</li>
+                <li>Quality l-ll-lll or  mixed.</li>
 
-            <li>We can delivery also other kind of wood </li>
+                <li>We can delivery also other kind of wood </li>
 
-            <li>softwood as Pine</li>
+                <li>softwood as Pine</li>
 
-            <li>Hardwood as beech/Ash & Oak </li>
+                <li>Hardwood as beech/Ash & Oak </li>
 
-            <li>KD or AD </li>
+                <li>KD or AD </li>
 
-            <li>Depending of the order. </li>
-        </ul>
+                <li>Depending of the order. </li>
+            </ul>
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../wood/wood (10).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4">3:- we offer all kinds of plywood for furniture and we offer all euro veneers</h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../wood/wood (10).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">3:- we offer all kinds of plywood for furniture and we offer all euro veneers</h2>
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../wood/wood (6).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4">4:- Flooring </h2>
-        <h3 className="has-text-dark is-size-5">1:- LAMINATE FLOORS</h3>
-        <p>
-            Laminate floors have a natural timber touch, high durability and are easy-care. The product portfolio gives the chance for individual
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../wood/wood (6).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">4:- Flooring </h2>
+            <h3 className="has-text-dark is-size-5">1:- LAMINATE FLOORS</h3>
+            <p>
+                Laminate floors have a natural timber touch, high durability and are easy-care. The product portfolio gives the chance for individual
           <br />
-            furnishing ideas – from the 1-strip flooring and 2-strip flooring up to the 3-strip flooring. Laminate floors are easy to lay. It can
+                furnishing ideas – from the 1-strip flooring and 2-strip flooring up to the 3-strip flooring. Laminate floors are easy to lay. It can
           <br />
-            be easily dissembled and layed somewhere else again. Laminate floorings are suitable for private rooms as well as for industry.
+                be easily dissembled and layed somewhere else again. Laminate floorings are suitable for private rooms as well as for industry.
 
       </p>
         </div>
@@ -634,7 +634,7 @@ contents['Wheat Bran'] = (
         <li> Minimum quantity of sales: 120 tons in 5x40'fcl. </li>
 
 
-</body>
+    </body>
 );
 contents['Sugar beet pulp pellets'] = (
     <body>
@@ -769,7 +769,7 @@ contents['Yellow corn mazia and wheat'] = (
     </body>
 );
 
-contents['Alfalfa hay'] =(
+contents['Alfalfa hay'] = (
     <div>
         We offer high quality European alfalfa hay , moisture less than 13 % and protein percent min 18% , with
 best offer .
@@ -818,7 +818,7 @@ contents['Sunflower meal pellets'] = (
         </table>
         <p>
             <lu>
-        Packaging: in bulk;</lu>
+                Packaging: in bulk;</lu>
 
             <li> Delivery terms: FCA, CPT, DAP, FOB, CFR;</li>
             <li> Shipment: in 20' containers in big-bags, rail wagons, vessel;</li>
@@ -840,15 +840,15 @@ contents['Sunflower meal pellets'] = (
 contents['Soybeans meal pellets'] = (
     <body>
         From our merchandisers, who can help you decide which contracts are right for you, to our wide range of products and services, we’re ready to help you manage risk, feed your livestock and protect your assets.
-        <br/>
-The reason is simple—we know that when it comes to feeding and fueling the world, we’re in this business together. And in order for us to succeed, you must succeed.
-<br/>
-Take a moment to browse around and learn how company name  can be a vital contributor to your success. Or, contact us today
+        <br />
+        The reason is simple—we know that when it comes to feeding and fueling the world, we’re in this business together. And in order for us to succeed, you must succeed.
+<br />
+        Take a moment to browse around and learn how company name  can be a vital contributor to your success. Or, contact us today
 And helping fodder factories by supply them the raw material of grain and fodder with best price and best quality to reduce the cost of product to the lowest.
-<br/>
- We are suppliers of high quality animal fee meal at the most affordable and competitive prices in   the market.
- <br/>
- <br/>
+<br />
+        We are suppliers of high quality animal fee meal at the most affordable and competitive prices in   the market.
+ <br />
+        <br />
         <h2 className=" has-bg-blue is-size-4"> Soybeans meals in bags 25 k.g</h2>
         <table className="table is-bordered">
             <tbody>
@@ -922,80 +922,80 @@ contents['Apple'] = (
           and making contract with European sorting and packing station ,
           for supply our buyers best quality euro apples in time with best prices . </p>
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Fresh apples/fresh-apple (24).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> <lu> 1:- red delicious apples </lu> </h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Fresh apples/fresh-apple (24).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> <lu> 1:- red delicious apples </lu> </h2>
 
-        <li>  NAME Red </li>
-        <li>  SURNAME Stark, Stark Delicious or Delicious </li>
-        <li>  HARVEST SEASON from 1/9 to 20/9 </li>
-        <li>  PLACE OF BIRTH EURO </li>
-        <li> Cold storage season: October to June of next year </li>
+            <li>  NAME Red </li>
+            <li>  SURNAME Stark, Stark Delicious or Delicious </li>
+            <li>  HARVEST SEASON from 1/9 to 20/9 </li>
+            <li>  PLACE OF BIRTH EURO </li>
+            <li> Cold storage season: October to June of next year </li>
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Fresh apples/fresh-apple (17).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> <lu> 2:- golden delicious apples </lu> </h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Fresh apples/fresh-apple (17).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> <lu> 2:- golden delicious apples </lu> </h2>
 
-        <li> NAME Golden </li>
-        <li> SURNAME Delicious </li>
-        <li> HARVEST SEASON from 15/9 to 31/10 </li>
-        <li> PLACE OF BIRTH EURO</li>
-        <li> Cold storage season: October to June of next year </li>
-        </div>
-
-
-
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Fresh apples/fresh-apple (12).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> <lu> 3:- royal gala apples </lu> </h2>
-
-        <li> NAME Gala</li>
-        <li> SURNAME  Royal</li>
-        <li> HARVEST SEASON from 10/8 to 10/9</li>
-        <li> PLACE OF BIRTH EURO</li>
-        <li> Cold storage season: October to June of next year</li>
+            <li> NAME Golden </li>
+            <li> SURNAME Delicious </li>
+            <li> HARVEST SEASON from 15/9 to 31/10 </li>
+            <li> PLACE OF BIRTH EURO</li>
+            <li> Cold storage season: October to June of next year </li>
         </div>
 
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Fresh apples/fresh-apple (10).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> <lu> 4:-  Gala Must </lu></h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Fresh apples/fresh-apple (12).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> <lu> 3:- royal gala apples </lu> </h2>
 
-        <li> NAME Gala </li>
-        <li> SURNAME Must </li>
-        <li> HARVEST SEASON from 10/8 to 10/9 </li>
-        <li> PLACE OF BIRTH EURO </li>
-        <li> Cold storage season: October to June of next year </li>
-        </div>
-
-<div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Fresh apples/fresh-apple (18).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> <lu> 4:- granny smith apples </lu></h2>
-
-        <li>  NAME granny </li>
-        <li>  SURNAME  smith </li>
-        <li>  HARVEST SEASON from 10/8 to 10/9 </li>
-        <li>  PLACE OF BIRTH EURO </li>
-        <li>  Cold storage season: October to June of next year  </li>
+            <li> NAME Gala</li>
+            <li> SURNAME  Royal</li>
+            <li> HARVEST SEASON from 10/8 to 10/9</li>
+            <li> PLACE OF BIRTH EURO</li>
+            <li> Cold storage season: October to June of next year</li>
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Fresh apples/fresh-apple (19).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"><lu> 5:- idaret fresh apples </lu></h2>
 
-        <li>HARVEST SEASON from September and October </li>
-        <li> PLACE OF BIRTH EURO </li>
-        <li> Cold storage season: October to June of next year </li>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Fresh apples/fresh-apple (10).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> <lu> 4:-  Gala Must </lu></h2>
+
+            <li> NAME Gala </li>
+            <li> SURNAME Must </li>
+            <li> HARVEST SEASON from 10/8 to 10/9 </li>
+            <li> PLACE OF BIRTH EURO </li>
+            <li> Cold storage season: October to June of next year </li>
+        </div>
+
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Fresh apples/fresh-apple (18).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> <lu> 4:- granny smith apples </lu></h2>
+
+            <li>  NAME granny </li>
+            <li>  SURNAME  smith </li>
+            <li>  HARVEST SEASON from 10/8 to 10/9 </li>
+            <li>  PLACE OF BIRTH EURO </li>
+            <li>  Cold storage season: October to June of next year  </li>
+        </div>
 
 
-        <lu> PACKING </lu>
-        <li> CARTON BOX 18-20 K.G </li>
-        <li> PLASTIC BOX 13-18 K.G </li>
-        <li> WOODEN BOX 13 K.G </li>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Fresh apples/fresh-apple (19).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"><lu> 5:- idaret fresh apples </lu></h2>
+
+            <li>HARVEST SEASON from September and October </li>
+            <li> PLACE OF BIRTH EURO </li>
+            <li> Cold storage season: October to June of next year </li>
+
+
+            <lu> PACKING </lu>
+            <li> CARTON BOX 18-20 K.G </li>
+            <li> PLASTIC BOX 13-18 K.G </li>
+            <li> WOODEN BOX 13 K.G </li>
         </div>
 
     </body>
@@ -1003,8 +1003,8 @@ contents['Apple'] = (
 contents['Strawberry'] = (
     <body>
         <h2 className=" has-bg-blue is-size-4"> Strawberry.  </h2>
-        <h2 className=" has-bg-blue is-size-4">Sizes:</h2>15-22 mm / 22- 26 mm / 26 – 35        
- 35mm-45mm        
+        <h2 className=" has-bg-blue is-size-4">Sizes:</h2>15-22 mm / 22- 26 mm / 26 – 35
+ 35mm-45mm
         <p>
             Novamber till of february
 </p>
@@ -1017,10 +1017,10 @@ contents['Strawberry'] = (
 
         <h2 className=" has-bg-blue is-size-4">Packing:</h2>
         <p>
-        2kg/ 8 punnets<br/>
-        2.5kg/ 10 punnets
+            2kg/ 8 punnets<br />
+            2.5kg/ 10 punnets
 </p>
-Punnet:250 gm n.w
+        Punnet:250 gm n.w
 
     </body>
 );
@@ -1152,14 +1152,14 @@ contents['GARLIC AND ONION'] = (
 contents['Citrus'] = (
     <body>
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Citrus/orang-03.png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> <lu> 1:-Fresh oranges</lu></h2>
-        <li> Origin:- Egypt – Italy - Spain </li>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Citrus/orang-03.png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> <lu> 1:-Fresh oranges</lu></h2>
+            <li> Origin:- Egypt – Italy - Spain </li>
 
-        <p> Our business partners Biggest exporter and producer for CITRUS with high quality and quality certificates ( ISO9001 - GLOBAL G.A.B - BRC - HACCP - IFS )
+            <p> Our business partners Biggest exporter and producer for CITRUS with high quality and quality certificates ( ISO9001 - GLOBAL G.A.B - BRC - HACCP - IFS )
     <br />
-            Our packing station one of new and biggest with new technology we would like to present our "new orange" crops </p>
+                Our packing station one of new and biggest with new technology we would like to present our "new orange" crops </p>
         </div>
         <table className="table is-bordered">
             <tbody>
@@ -1200,22 +1200,22 @@ contents['Citrus'] = (
 
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Citrus/orang-01.png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4">  2:- Mandarin Offer </h2>
-        <lu> specification Mandarin -; </lu>
-        <li> Origin:- Egypt – Italy - spain </li>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Citrus/orang-01.png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">  2:- Mandarin Offer </h2>
+            <lu> specification Mandarin -; </lu>
+            <li> Origin:- Egypt – Italy - spain </li>
 
-        <lu> -Variety: </lu>
-        <li>  Mandarin: with seed </li>
-        <li> Clementine (morket): seedless </li>
-        <li> Size -: 113 –100 –88 –80 </li>
+            <lu> -Variety: </lu>
+            <li>  Mandarin: with seed </li>
+            <li> Clementine (morket): seedless </li>
+            <li> Size -: 113 –100 –88 –80 </li>
 
-        <lu> Packing  -:  </lu>
-        <li> 8 kg \ open top carton </li>
-        <li> Container 40 ft reefer:18- 22 MT </li>
-        <li> No of Pallet : 20 Pallets </li>
-        <li> Delivery term: - FOB, CNF, CIF, DDP </li>
+            <lu> Packing  -:  </lu>
+            <li> 8 kg \ open top carton </li>
+            <li> Container 40 ft reefer:18- 22 MT </li>
+            <li> No of Pallet : 20 Pallets </li>
+            <li> Delivery term: - FOB, CNF, CIF, DDP </li>
         </div>
 
 
@@ -1226,38 +1226,38 @@ contents['Citrus'] = (
 
         <h3 className="has-text-dark is-size-5"> Varieties:-  </h3>
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Citrus/lemon-03.png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h3 className="has-text-dark is-size-5"> <lu> 1:- Adalia Lemon : </lu> </h3>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Citrus/lemon-03.png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h3 className="has-text-dark is-size-5"> <lu> 1:- Adalia Lemon : </lu> </h3>
 
-        <li> Season: (October till end of March) </li>
-        <li> Sizes: 80, 88, 100, 105, 113, 125, 138, 165. </li>
-        <li> Shape: round shape, seeds, fat skin, juicy </li>
+            <li> Season: (October till end of March) </li>
+            <li> Sizes: 80, 88, 100, 105, 113, 125, 138, 165. </li>
+            <li> Shape: round shape, seeds, fat skin, juicy </li>
 
-        <br />
+            <br />
         </div>
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Citrus/lemon-01.png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h3 className="has-text-dark is-size-5"> <lu> 2:-Verna Lemon : </lu> </h3>
-        <li>Season: (February till end of May)</li>
-        <li>Sizes: 80, 88, 100 , 105 , 113 , 125 , 138 , 165.</li>
-        <li>Shape: long, thin skin, seeds, more juicy</li>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Citrus/lemon-01.png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h3 className="has-text-dark is-size-5"> <lu> 2:-Verna Lemon : </lu> </h3>
+            <li>Season: (February till end of May)</li>
+            <li>Sizes: 80, 88, 100 , 105 , 113 , 125 , 138 , 165.</li>
+            <li>Shape: long, thin skin, seeds, more juicy</li>
 
-        <br />
+            <br />
 
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../Citrus/lemon-02.png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h3 className="has-text-dark is-size-5"> <lu> 3:-Baladi (banzaher & limes) </lu></h3>
-        <li> Season: (around year) </li>
-        <li>  Size: (150,160, 174, 190) </li>
-        <li> Color: yellow in (winter & spring) green in (summer and autumn) </li>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../Citrus/lemon-02.png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h3 className="has-text-dark is-size-5"> <lu> 3:-Baladi (banzaher & limes) </lu></h3>
+            <li> Season: (around year) </li>
+            <li>  Size: (150,160, 174, 190) </li>
+            <li> Color: yellow in (winter & spring) green in (summer and autumn) </li>
 
 
-        <br />
+            <br />
         </div>
 
 
@@ -1279,16 +1279,37 @@ contents['Citrus'] = (
 );
 
 
-
+contents['Draw of salt work'] = (
+   <div>
+   <section className="section">
+        <div className="container">
+            <div className="columns">
+                <div className=" card column is-8 is-offset-2" >
+                    <img src="../../draw of salt work/diagram.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section className="section">
+        <div className="container">
+            <div className="columns">
+                <div className=" card column is-8 is-offset-2">
+                    <img src="../../draw of salt work/INCOTERMS_2010.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+);
 
 contents['De-Ice Salt'] = (
     <body>
-        <video className="card" style={{width:"55%", height: "400px", margin:"0 auto"}} controls controlsList="nodownload noremote foobar">
-  <source src="../../salt.mp4"  type="video/mp4"/>
-</video>
-{/* <img width="450" height="340" style={{float:'right'}} src=""/> */}
+        <video className="card" style={{ width: "55%", height: "400px", margin: "0 auto" }} controls controlsList="nodownload noremote foobar">
+            <source src="../../salt.mp4" type="video/mp4" />
+        </video>
+        {/* <img width="450" height="340" style={{float:'right'}} src=""/> */}
 
-<div style={{ width:"38%", float:"right" , height:"400px",  background:"url(../../catimg/remove.jpg)", backgroundPosition:"center"  ,backgroundSize:"cover" , minWidth:"300px"}} ></div>
+        <div style={{ width: "38%", float: "right", height: "400px", background: "url(../../catimg/remove.jpg)", backgroundPosition: "center", backgroundSize: "cover", minWidth: "300px" }} ></div>
         <p> We able to produce and supply over 2 million ton per years , we able enter any tender for salt around the globe , we looking for reduce invoice  of cleaning roads from the snow by supply super quality salt making roads very safe , with best prices on time without any delay .
     De-icing Salt (Sodium chloride) is the most widely used de-icing agent in Europe , canada and usa and throughout the world due to its huge advantages over the alternatives.</p>
         <ul> It is the ideal de-icing material because:</ul>
@@ -1299,70 +1320,70 @@ contents['De-Ice Salt'] = (
         <li> It is harmless to skin, clothing and environment </li>
         <h3>We offering high quality salt as following:</h3>
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../De-ice/De-ice (3).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4"> 1:- Raw Rock crystal salt De-ice salt </h2>
-        <p>
-            analysis as following , NacL OVER 98.59% ( purity) , Moisture 0.42 % and Water Insoluble 0.46 %  , </p>
-        <br/>
-        SGS analysis of our rock crystal salt as following:
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../De-ice/De-ice (3).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4"> 1:- Raw Rock crystal salt De-ice salt </h2>
+            <p>
+                analysis as following , NacL OVER 98.59% ( purity) , Moisture 0.42 % and Water Insoluble 0.46 %  , </p>
+            <br />
+            SGS analysis of our rock crystal salt as following:
         <table className="table is-bordered">
-            <tbody>
-                <tr>
-                    <th>Elements</th>
-                    <th>Result %</th>
-                    <th>Analysis Method</th>
-                </tr>
-                <tr>
-                    <td>Moisture</td>
-                    <td>0.42</td>
-                </tr>
-                <tr>
-                    <td>Purity (as Sodium Chloride)</td>
-                    <td>98.59</td>
-                </tr>
-                <tr>
-                    <td>Water Insoluble</td>
-                    <td>0.46</td>
-                </tr>
-                <tr>
-                    <td>SO4</td>
-                    <td>0.60</td>
-                </tr>
-                <tr>
-                    <td>Ca++</td>
-                    <td>0.18</td>
-                    <td>ASTM E534/2003</td>
-                </tr>
-                <tr>
-                    <td>Mg++</td>
-                    <td>0.05</td>
-                </tr>
-                <tr>
-                    <td>CaSO4</td>
-                    <td>0.61</td>
-                </tr>
-                <tr>
-                    <td>MgSO4</td>
-                    <td>0.21</td>
-                </tr>
-                <tr>
-                    <td>Mgcl2</td>
-                    <td>0.03</td>
-                </tr>
-            </tbody>
-        </table>
+                <tbody>
+                    <tr>
+                        <th>Elements</th>
+                        <th>Result %</th>
+                        <th>Analysis Method</th>
+                    </tr>
+                    <tr>
+                        <td>Moisture</td>
+                        <td>0.42</td>
+                    </tr>
+                    <tr>
+                        <td>Purity (as Sodium Chloride)</td>
+                        <td>98.59</td>
+                    </tr>
+                    <tr>
+                        <td>Water Insoluble</td>
+                        <td>0.46</td>
+                    </tr>
+                    <tr>
+                        <td>SO4</td>
+                        <td>0.60</td>
+                    </tr>
+                    <tr>
+                        <td>Ca++</td>
+                        <td>0.18</td>
+                        <td>ASTM E534/2003</td>
+                    </tr>
+                    <tr>
+                        <td>Mg++</td>
+                        <td>0.05</td>
+                    </tr>
+                    <tr>
+                        <td>CaSO4</td>
+                        <td>0.61</td>
+                    </tr>
+                    <tr>
+                        <td>MgSO4</td>
+                        <td>0.21</td>
+                    </tr>
+                    <tr>
+                        <td>Mgcl2</td>
+                        <td>0.03</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../De-ice/De-ice (12).jpg" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-                <h2 className=" has-bg-blue is-size-4">  2:- raw sea salt for de-ice </h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../De-ice/De-ice (12).jpg" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">  2:- raw sea salt for de-ice </h2>
             <p><lu> We able to supply high quality sea salt too for de-ice  Nacl min 97.5% and moisture from 1-4 % max</lu>
 
-            <li> -	Sorting , crush high level and sizing according to client want ( 0-4 &1-5 &2-10 &1-12) mm or any size we do it and we can supply it raw without crushing according to your request.</li>
-            <li>  -	Anti caking agent as client request 50 ppm or any percent client want and the kind the client want for anti caking.</li>
-            <li>  -	We give SGS certification , by analysis and quantity load on the vessel , and can check vessel banker too before loading to arrive salt in quality vessel too .</li> </p>
+                <li> -	Sorting , crush high level and sizing according to client want ( 0-4 &1-5 &2-10 &1-12) mm or any size we do it and we can supply it raw without crushing according to your request.</li>
+                <li>  -	Anti caking agent as client request 50 ppm or any percent client want and the kind the client want for anti caking.</li>
+                <li>  -	We give SGS certification , by analysis and quantity load on the vessel , and can check vessel banker too before loading to arrive salt in quality vessel too .</li> </p>
 
         </div>
 
@@ -1375,7 +1396,7 @@ contents['De-Ice Salt'] = (
         <li>   Delivery terms: EXW , FOB , CIF OR EVEN DDP to the warehouse of our client , incoterms 2010</li>
 
         <li>  Packing options bags 50k.g , or bags 25 k.g or jumbo bags 1 ton or 1.5 ton in bags min order 200 ton </li>
-        <br/>
+        <br />
     </body>
 );
 
@@ -1386,17 +1407,17 @@ contents['Industrial Salt'] = (
         <p>    Salt It is a key component in the production of different industries, as almost all industries in the world use sodium chloride salt, either as a main material or an additive.  Chemical industries represent the largest consumers  of salt, which is used in the production of prime chemicals , chlorine that is used  in water treatment facilities,Caustic Soda used as a dyes in textile and detergents,Soda Ash is used in glass , soap  and leather tanning industry , Manufacture of paper - plastics - ceramics , fertilizer etc
          </p>
 
-        <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../industrial salt/industrial salt(2).png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4">  1:- Rock crystal salt for industrial use (one time washed rock crystal salt)</h2>
-        <p>Purity over 99.5% and moisture less than 0.5 % Insoluble 0.3 %</p>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../industrial salt/industrial salt(2).png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">  1:- Rock crystal salt for industrial use (one time washed rock crystal salt)</h2>
+            <p>Purity over 99.5% and moisture less than 0.5 % Insoluble 0.3 %</p>
         </div>
 
 
-          <div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../industrial salt/industrial salt(3).png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4">  2:-we offer one time or two times sea crystal salt for industrial use too .</h2>
-        Nacl min for sea crystal salt 98.5% moisture from 1-3% <p />
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../industrial salt/industrial salt(3).png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">  2:-we offer one time or two times sea crystal salt for industrial use too .</h2>
+            Nacl min for sea crystal salt 98.5% moisture from 1-3% <p />
         </div>
 
 
@@ -1425,25 +1446,25 @@ contents['Industrial Salt'] = (
         <li> Irrevocable Letter of Credit at sight issued by a Top World Bank and available with Seller's bank only if order is    3000 MT min </li>
 
 
-<div className="card" style={{ padding: 20 ,margin:10 , marginLeft: 0 }}>
-                <img src="../../industrial salt/industrial salt(4).png" style={{ float: 'right', maxWidth: '100%',maxHeight:300 }} />
-        <h2 className=" has-bg-blue is-size-4">  3:- tablet salt for water softener </h2>
+        <div className="card" style={{ padding: 20, margin: 10, marginLeft: 0 }}>
+            <img src="../../industrial salt/industrial salt(4).png" style={{ float: 'right', maxWidth: '100%', maxHeight: 300 }} />
+            <h2 className=" has-bg-blue is-size-4">  3:- tablet salt for water softener </h2>
 
 
-        Details : pressed salt in oval rectangular shape of 2.5*2.0*1.0 cm ,used in water treatment units to activate chemical resins .
+            Details : pressed salt in oval rectangular shape of 2.5*2.0*1.0 cm ,used in water treatment units to activate chemical resins .
       <br />
 
-        <lu> Packing :</lu>
-        <li>pollyethelin packge inside pollyproblin one of 25 k.g </li>
-        <li> Specifications: Sodium chloride NACL ( dry base) :99.0-99.5% </li>
-        <li> Insoluble matter: 0.10-0.15 % </li>
-        <li> Soluble matter: 0.40-0.85 % </li>
-        <li> Bicarbonate: 0.024-0.049 % </li>
-        <li> Sulphate: 0.30-0.55 % </li>
-        <li> Calcium: 0.040-0.13 % </li>
-        <li> Magnesium: 0.034-0.12% </li>
+            <lu> Packing :</lu>
+            <li>pollyethelin packge inside pollyproblin one of 25 k.g </li>
+            <li> Specifications: Sodium chloride NACL ( dry base) :99.0-99.5% </li>
+            <li> Insoluble matter: 0.10-0.15 % </li>
+            <li> Soluble matter: 0.40-0.85 % </li>
+            <li> Bicarbonate: 0.024-0.049 % </li>
+            <li> Sulphate: 0.30-0.55 % </li>
+            <li> Calcium: 0.040-0.13 % </li>
+            <li> Magnesium: 0.034-0.12% </li>
 
-<br/>
+            <br />
 
         </div>
     </body>
@@ -1454,13 +1475,13 @@ contents['Edible Salt'] = (
     <body>
         <h3>our salt come with quality standard </h3>
 
-<li> IFS , GMP,  ISO 22000:2005 </li>
-<li> ISO 14001/2004 </li>
-<li> ISO 9001 / 2000</li>
-<li>BS OHSAS 18001: 2007</li>
-and much more quality certifications , quality is first.
-<br/>
-<br/>
+        <li> IFS , GMP,  ISO 22000:2005 </li>
+        <li> ISO 14001/2004 </li>
+        <li> ISO 9001 / 2000</li>
+        <li>BS OHSAS 18001: 2007</li>
+        and much more quality certifications , quality is first.
+<br />
+        <br />
         <h2 className=" has-bg-blue is-size-4"> 1 :- Edible fine washed salt iodized or non iodized </h2>
         <p>   Details : all remain above 3 mm mesh with tolerance 5 % use s edible salt for food industrial </p>
 
@@ -1536,7 +1557,7 @@ and much more quality certifications , quality is first.
         <li> •	Water soluble impurities     0.08% </li>
         <li> •	Moisture                           0.2 % </li>
         <li> •	we also making salt for meat industrial in bags 25 k.g </li>
-<br/>
+        <br />
 
     </body>
 );
